@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <HashRouter basename="/civictechlab-deploy">
+      <HashRouter basename={process.env.PUBLIC_URL}>
       <Switch>                
         <Route path='/home' component={Home}/>  
         <Route path='/people' component={People}/>               
