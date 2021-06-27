@@ -282,19 +282,19 @@ export default class OnlineDeliberation extends React.Component {
                 </li>
                 <li>
                     <h3 className="h3title">Graph Editor</h3>
-                    <a href="/online-deliberation/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download Guide</Button></a>
+                    <a href="/online-deliberation/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a>
                     <img className="project-img" src={picture5}></img>
                 </li>
 
                 <li>
                     <h3 className="h3title">Policy Maker Interface Demo</h3>
-                    <a href="/online-deliberation/PolicyMakers-Guide-website.pdf" download><Button className="download-report">Download Guide</Button></a>
+                    <a href="/online-deliberation/PolicyMakers-Guide-website.pdf" download><Button className="download-report">Download</Button></a>
                     <img className="project-img" src={picture6}></img>
                 </li>
 
                 <li>
                     <h3 className="h3title">Sentiment Analysis Demo</h3>
-                    <a href="/online-deliberation/Demographic on Sentiment.pdf" download><Button className="download-report">Download Guide</Button></a>
+                    <a href="/online-deliberation/Demographic on Sentiment.pdf" download><Button className="download-report">Download</Button></a>
                     <img className="project-img" src={picture7}></img>
                 </li>
             </ol>

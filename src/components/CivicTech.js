@@ -89,7 +89,7 @@ export default class CivicTech extends React.Component {
                     Singapore Research Nexus Virtual Event, FASS, NUS, May 12<sup>th</sup>,
                     2021. [video]
                 </li>
-                <img className="project-img" src="/civic-tech/picture4.png"/>
+                <img className="project-img" src="/civic-tech/picture4.png" style={{height:"600px", objectFit:"cover", objectPosition:"0 -360px"}}/>
 
                 <li>
                     <em>
@@ -99,7 +99,7 @@ export default class CivicTech extends React.Component {
                     Crossroads, The Philippine Center for Investigative Journalism, September
                     30th, 2009. [slides]
                 </li>
-                <img className="project-img" src="/civic-tech/picture5.png" style={{height:"300px", width:"auto"}}/>
+                {/* <img className="project-img" src="/civic-tech/picture5.png" style={{height:"300px", width:"auto"}}/> */}
             </ol>
 
             
@@ -114,6 +114,7 @@ export default class CivicTech extends React.Component {
 
             <img className="partner-img" src="/civic-tech/NUS CTIC.png"></img>
             <img className="partner-img" src="/civic-tech/NUS EAI.png"></img>
+            <br />
             <img className="partner-img" src="/civic-tech/SUTD.png"></img>
             <img className="partner-img" src="/civic-tech/PCIJ.png"></img>
 

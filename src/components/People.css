@@ -3,10 +3,43 @@
     justify-content: center;
 }
 
+.person {
+    margin: 0px 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 500px;
+}
+
+.person h4 {
+    height:80px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 .person img {
-    height: 300px;
-    width:180px;
+    height: 240px;
+    width: 240px;
     object-fit:cover;
+}
+
+.person p {
+    text-align:center;
+}
+
+.person:hover {
+    border: 1px solid #777;
+}
+
+.people-width .row {
+    margin:20px 0px;
+}
+
+.people-width .col {
+    margin:0px;
+    padding:0px;
+    display:flex;
+    justify-content: center;
 }
 

@@ -113,12 +113,12 @@ export default class YOuthEngagement extends React.Component {
             <ol className="youth-engagement-tools">
                 <li>
                     <h3 className="h3title">YOUTH, ICTs AND POLITICAL ENGAGEMENT IN ASIA FINAL REPORT</h3>
-                    <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download Guide</Button></a>
+                    <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download</Button></a>
                     <img className="project-img" src="/youth-engagement/picture5.png" />
                 </li>
                 <li>
                     <h3 className="h3title">COUNTRY BACKGROUND REPORT</h3>
-                    <a href="/youth-engagement/Country Background Report.doc" download><Button className="download-report">Download Guide</Button></a>
+                    <a href="/youth-engagement/Country Background Report.doc" download><Button className="download-report">Download</Button></a>
                     <img className="project-img" src="/youth-engagement/picture6.png" />
                 </li>
             </ol>

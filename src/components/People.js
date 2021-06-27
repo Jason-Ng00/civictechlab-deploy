@@ -13,9 +13,9 @@ export default class People extends React.Component {
   render() {
     return (
         <Container className="people">
-        <Col xs={12} md={10} lg={8} sclassName="people-width">
+        <Col xs={12} md={10} lg={10} className="people-width">
         <h1>Current Team</h1>
-            <Row xs={1} md={2} lg={4} >
+            <Row>
                 <Col><Person name="Dr. Weiyu Zhang" img="weiyu.png" position="Founder & Director; currently Associate Professor, Department of Communications and New Media, National University of Singapore."></Person></Col>
                 <Col><Person name="Zhuo Chen" img="zhuochen.png" position="PhD Candidate "></Person></Col>
                 <Col><Person name="Yipeng Xi" img="yipeng.png" position="PhD Candidate "></Person></Col>
@@ -46,6 +46,8 @@ export default class People extends React.Component {
             <Row>
                 <Col><Person name="Catherine Candano" img="catherine.png" position="Master Graduate, 2012; currently Head, Strategic Data Partnerships Development, Google Asia Pacific"></Person></Col>
                 <Col><Person name="Lingzi Zhang" img="lingzi.png" position="Master Graduate, 2012; currently Product Director at Ola Chat"></Person></Col>
+                <Col></Col>
+                <Col></Col>
             </Row>
 
             

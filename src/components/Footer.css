@@ -15,6 +15,10 @@
     justify-content:center;
 }
 
+.footer-column {
+    margin:20px 0px;
+}
+
 .footer-top {
     color:#ffffff;
     height:100px;

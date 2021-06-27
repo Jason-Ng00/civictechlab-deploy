@@ -5,6 +5,11 @@
 
 .home-width {
     max-width:100%;
+    justify-content: center;
+    flex-direction: column;
+    display:flex;
+    align-items:center;
+
 }
 
 .carousel-root {
@@ -12,7 +17,12 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    border-radius: 10px;;
+    border-radius: 10px;
+}
+
+.carousel-container {
+    width:80%;
+    justify-content: center;
 }
 
 .carousel-slider {

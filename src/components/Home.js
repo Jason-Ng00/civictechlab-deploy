@@ -17,7 +17,8 @@ export default class Home extends React.Component {
         <Container className="home">
 
         <Col xs={12} md={12} lg={12} className="home-width">
-            <Carousel infiniteLoop autoPlay interval="2500" width="60%">
+        <Row className="carousel-container">
+            <Carousel infiniteLoop autoPlay interval="2500" width="80%">
                 <div>
                     <img src="/cultural-publics/picture4.png" />
                     <p className="legend">Cultural Public Event Went Smoothly</p>
@@ -31,6 +32,7 @@ export default class Home extends React.Component {
                     <p className="legend">Closing ceremony of Youth Engagement</p>
                 </div>
             </Carousel>
+        </Row>
             {/* <Row className="home-content-abput-us">
                 <h1>ABOUT US</h1>
             </Row> */}
