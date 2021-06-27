@@ -1,0 +1,33 @@
+.header {
+    max-width:100%;
+    background-color: #1C374C;
+    display:flex;
+    justify-content:center;
+}
+
+.header-content {
+    vertical-align: middle;
+    display:flex;
+    height:50px;
+    align-items: center;
+    display:flex;
+    justify-content:center;
+}
+
+.header-column {
+    color:#ffffff;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.icon {
+    color:#20d2dd;
+    font-size:15px;
+    margin:10px;
+}
+
+.header-icon {
+    text-align: right;
+    justify-content: right;
+}
+

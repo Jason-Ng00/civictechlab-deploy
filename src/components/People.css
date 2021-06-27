@@ -1,0 +1,12 @@
+.people {
+    display:flex;
+    justify-content: center;
+}
+
+
+.person img {
+    height: 300px;
+    width:180px;
+    object-fit:cover;
+}
+

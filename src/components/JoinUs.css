@@ -1,0 +1,39 @@
+.join-us {
+    display:flex;
+    justify-content: center;
+    max-width:100%;
+}
+
+.join-us-title {
+    text-align: center;
+}
+
+.join-us-subtitle {
+    text-align:left;
+}
+
+
+.deco-img {
+    width:60%;
+    height:auto;
+    margin: 10px 0px 20px 0px;
+    opacity: 0.6;
+    border-radius:20px;
+}
+
+.job-title {
+    text-align:left;
+    text-decoration: underline;
+}
+
+.job-desc {
+    border-radius: 10px;
+    border:2px solid #000;
+    padding:20px;
+    margin-bottom: 25px;
+}
+
+
+ul, ol{
+    text-align:left;
+}

@@ -1,0 +1,93 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Container, Row, Col, Button} from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./CitizenScience.css";
+import logo from "../assets/logo.png";
+import * as Icon from 'react-bootstrap-icons';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+
+export default class CivicTech extends React.Component {
+  render() {
+    return (
+        <Container className="citizen-science">
+        <Col xs={12} md={10} lg={8} className="citizen-science-width">
+            <h1 className="title" style={{width:"100%"}}>Project - Citizen Science</h1>
+
+            <h2 className="subtitle">Introduction</h2>
+            <h4>This research program focuses on enabling public participation in science and technology topics and 
+            facilitating the communication between experts and ordinary citizens. </h4>
+            <img className="project-img" src="/citizen-science/picture1.png" />
+            <p>
+            Science and Technology topics (e.g., pandemics, climate change, gene editing, artificial intelligence) 
+            have increasingly becoming the focus of public discussion. Public understanding of science and technology 
+            is the foundation of the governance of these history-changing actants. Without the publics’ buy-in, 
+            we cannot harvest the fruits of scientific breakthroughs (e.g., vaccine take-up). Without the public’s 
+            support, we won’t be able to reverse the climate change human development has induced. Without the 
+            public’s debate, we won’t know that there are limits the mankind must set to their own imagination 
+            (e.g., gene editing). Without the public’s thought evolvement, we cannot justify the decisions on 
+            technological development made by experts (e.g., artificial intelligence).              
+
+            </p>
+
+
+            <h2 className="subtitle">Collaborators</h2>
+            <ul>
+                <li>Dr. David Holmes - Co-PI; Founder and Director, Climate Change Communication Research, Monash University</li>
+                <li>Dr. Rong Wang - Co-PI; Assistant Professor, Department of Communication, University of Kentucky</li>
+                <li>Manjiang He - Research Assistant, Master Student, LKYSPP, NUS </li>
+                <li>Xing Zhang - Research Assistant, PhD Student, CNM, NUS </li>
+                <li>Ximing Liu - Research Assistant, Master student; currently Market Researcher at Tencent</li>
+                <li>Jingjing Liang - Research Assistant, Master student; currently taking a break</li>
+                <li>Dr. Anfan Chen - Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at Chinese University of Hong Kong (CUHK)</li>
+                <li>Kehan Yang - Research Assistant, Master Student, LKYSPP, NUS</li>
+                <li>Haodong Liu- Research Intern; currently Master graduate, City University of Hong Kong</li>
+
+            </ul>
+
+            <h2 className="subtitle">Publications</h2>
+            <ol>
+                <li>
+                    Zhang, W., Chua, G., See, C. (July 2021). <em>The Role of Social Media in China’s Lifeworld Environmentalism</em>,
+                    paper presented at the 2021 Annual Conference of International Association
+                    of Media and Communication Research, virtual due to Covid-19. [video]
+                </li>
+                <li>
+                    Zhang, X., Chen, A., &amp; Zhang, W. (online first). <a href="https://doi.org/10.1177%2F0963662520987754">
+                        Before and after the Chinese gene-edited human babies: Multiple
+                        discourses of gene editing on social media.
+                    </a> <em>Public Understanding of Science</em>
+                    . [video]
+                </li>
+                <li>
+                    Liang, J., Liu, X., Zhang, W. (2019) <a href="https://doi.org/10.1177%2F0963662519876782">
+                        Scientists vs. Laypeople: How Genetically Modified Food is Discussed on
+                        a Chinese Q&amp;A Website?
+                    </a>
+                    . <em>Public Understanding of Science, 28</em>(8), 991-1004.
+                </li>
+                <br/>
+            </ol>
+            
+            <h2 className="subtitle">Partner Institutions</h2>
+            <p>
+            This research was funded by International Universities Climate Alliance through the leadership of 
+            the Monash Climate Change Communication Research Hub and the Vaccine Confidence Fund by Facebook 
+            and Merck. 
+            </p>
+
+            <img className="partner-img" src="/citizen-science/picture2.png"></img>
+            <img className="partner-img" src="/citizen-science/picture3.png"></img>
+            <img className="partner-img" src="/citizen-science/picture4.png"></img>
+            <img className="partner-img" src="/citizen-science/picture5.png"></img>
+
+
+
+
+        </Col>
+        </Container>
+    );
+  }
+}

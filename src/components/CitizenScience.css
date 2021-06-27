@@ -1,0 +1,54 @@
+.citizen-science {
+    display:flex;
+    justify-content: center;
+    max-width:100%;
+}
+
+.title {
+    text-align:left;
+    margin:10px 0px;
+    width:100%;
+}
+
+.subtitle {
+    text-align:left;
+    display:block;
+    width:100%;
+    border-bottom:2px solid #000;
+    padding: 10px 0px;
+}
+
+p {
+    text-align: left;
+}
+
+.project-img {
+    width:70%;
+    height:auto;
+    margin: 10px 0px 20px 0px;
+}
+
+.download-report {
+    width:20%;
+}
+
+.title, .h3title{
+    width:80%;
+    display:inline-block;
+}
+
+.online-deliberation-tools li{
+    margin:30px;
+    font-size: 25px;
+}
+
+
+ul, ol{
+    text-align:left;
+}
+
+.partner-img {
+    width:180px;
+    height:auto;
+    margin: 10px 60px 20px 0px;
+}

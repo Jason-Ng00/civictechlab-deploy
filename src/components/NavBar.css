@@ -1,0 +1,24 @@
+.nav-container {
+    max-width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.logo {
+    height:60px;
+    width:auto;
+}
+
+.navBar {
+    max-width:100%;
+    margin-left:10%;
+}
+
+#basic-navbar-nav {
+    width:80%;
+}
+
+.mr-auto {
+    font-size:25px;
+    font-size:20px;
+}
