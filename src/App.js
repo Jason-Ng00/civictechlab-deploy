@@ -15,14 +15,13 @@ import CitizenScience from "./components/CitizenScience.js"
 import CulturalPublic from "./components/CulturalPublic.js"
 import JoinUs from "./components/JoinUs.js"
 import News from "./components/News.js"
-
-
-import { Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Link, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
+      <HashRouter basename="/civictechlab-deploy">
       <Switch>                
         <Route path='/home' component={Home}/>  
         <Route path='/people' component={People}/>               
@@ -33,9 +32,9 @@ function App() {
         <Route path='/projects/cultural-public' component={CulturalPublic}/>  
         <Route path='/join-us' component={JoinUs}/>  
         <Route path='/news' component={News}/>  
-
         <Route path='/' component={Home}/>            
       </Switch>
+      </HashRouter>
       <Footer></Footer>
     </div>
   );
