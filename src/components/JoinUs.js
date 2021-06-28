@@ -20,7 +20,7 @@ export default class JoinUs extends React.Component {
             We are expanding our team! Don't hesitate to join us if you find yourself a good fit
             for the following position!
             </h5>
-            <img className="deco-img" src="/join-us/pexels-mabel-amber-128299.jpg" />
+            {/* <img className="deco-img" src="/join-us/pexels-mabel-amber-128299.jpg" /> */}
 
 
             <div className="job-desc">

@@ -18,7 +18,7 @@ export default class YOuthEngagement extends React.Component {
             <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download Report</Button></a>
             <h2 className="subtitle">Introduction</h2>
             <h4>This research program focuses on understanding the relationship between civic engagement of youth and Information Communication Technologies (ICTs).</h4>
-            <img className="project-img" src="/youth-engagement/picture1.png" />
+            <img className="project-img" src="youth-engagement/picture1.png" />
 
             <p>
             The “Youth, ICTs, and Political Engagement in Asia” project spanned over two years 
@@ -52,7 +52,7 @@ export default class YOuthEngagement extends React.Component {
                 <li>
 
                     <p>ICTs and Development: An International Workshop for Theory, Practice and Policy</p>
-                    <img className="project-img" src="/youth-engagement/picture2.png" />
+                    <img className="project-img" src="youth-engagement/picture2.png" />
                     <p>March 2010, IIT Delhi</p>
                 </li>
                 <li>
@@ -60,7 +60,7 @@ export default class YOuthEngagement extends React.Component {
                     <p>Session on “Youth, ICTs and Political Engagement in Asia” [slides]
                         <br />19th AMIC Annual Conference “Technology and Culture: Communication Connectors and Dividers”
                     </p>
-                    <img className="project-img" src="/youth-engagement/picture3.png" />
+                    <img className="project-img" src="youth-engagement/picture3.png" />
                     <p>21-23 June 2010 Suntec, Singapore</p>
                 </li>
                 <li>
@@ -68,7 +68,7 @@ export default class YOuthEngagement extends React.Component {
                     <p>Session on “Youth, ICTs, And Civil Engagement in Asia: A Comparative Approach”
                         <br />International Association of Media and Communication Research Conference 
                     </p>
-                    <img className="project-img" src="/youth-engagement/picture4.png" />
+                    <img className="project-img" src="youth-engagement/picture4.png" />
                     <p>15-20 July 2012, South Africa</p>
 
                 </li>
@@ -114,12 +114,12 @@ export default class YOuthEngagement extends React.Component {
                 <li>
                     <h3 className="h3title">YOUTH, ICTs AND POLITICAL ENGAGEMENT IN ASIA FINAL REPORT</h3>
                     <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download</Button></a>
-                    <img className="project-img" src="/youth-engagement/picture5.png" />
+                    <img className="project-img" src="youth-engagement/picture5.png" />
                 </li>
                 <li>
                     <h3 className="h3title">COUNTRY BACKGROUND REPORT</h3>
                     <a href="/youth-engagement/Country Background Report.doc" download><Button className="download-report">Download</Button></a>
-                    <img className="project-img" src="/youth-engagement/picture6.png" />
+                    <img className="project-img" src="youth-engagement/picture6.png" />
                 </li>
             </ol>
 
@@ -158,15 +158,15 @@ export default class YOuthEngagement extends React.Component {
             </p>
 
             <Row xs={1} sm={2} lg={4}>
-            <img className="partner-img" src="/youth-engagement/universityOfSdyney.png"></img>
-            <img className="partner-img" src="/youth-engagement/UniversityOfNottingham.png"></img>
-            <img className="partner-img" src="/youth-engagement/universityOfChittagong.png"></img>
-            <img className="partner-img" src="/youth-engagement/universityOfThePhillippines.png"></img>
+            <img className="partner-img" src="youth-engagement/universityOfSdyney.png"></img>
+            <img className="partner-img" src="youth-engagement/UniversityOfNottingham.png"></img>
+            <img className="partner-img" src="youth-engagement/universityOfChittagong.png"></img>
+            <img className="partner-img" src="youth-engagement/universityOfThePhillippines.png"></img>
             </Row>
 
             
             <Row xs={1} sm={2} lg={4}>
-            <img className="partner-img" src="/youth-engagement/Indian_Institute_of_Technology_Delhi_Logo.svg"></img>
+            <img className="partner-img" src="youth-engagement/Indian_Institute_of_Technology_Delhi_Logo.svg"></img>
             </Row>
 
 

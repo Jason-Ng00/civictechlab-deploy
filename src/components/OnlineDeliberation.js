@@ -306,10 +306,10 @@ export default class OnlineDeliberation extends React.Component {
                 authors and do not necessarily reflect the views of the funder.
             </p>
 
-            <img className="partner-img" src="/online-deliberation/Ministry_of_Education_(Singapore)_logo.png"></img>
-            <img className="partner-img" src="/online-deliberation/NUS HCI LAB.png"></img>
-            <img className="partner-img" src="/online-deliberation/IPS.png"></img>
-            <img className="partner-img" src="/online-deliberation/NPTD.png"></img>
+            <img className="partner-img" src="online-deliberation/Ministry_of_Education_(Singapore)_logo.png"></img>
+            <img className="partner-img" src="online-deliberation/NUS HCI LAB.png"></img>
+            <img className="partner-img" src="online-deliberation/IPS.png"></img>
+            <img className="partner-img" src="online-deliberation/NPTD.png"></img>
 
 
 

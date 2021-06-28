@@ -18,7 +18,7 @@ export default class CivicTech extends React.Component {
             <a href="/civic-tech/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download Report</Button></a>
             <h2 className="subtitle">Introduction</h2>
             <h4>This research program aims to examine and develop Civic Tech in Asian contexts.  </h4>
-            <img className="project-img" src="/civic-tech/picture1.png" />
+            <img className="project-img" src="civic-tech/picture1.png" />
             <p>
             Civic Technology, or Civic Tech, refers to information and communication technologies (ICTs) that facilitate civic engagement.
              Government-centric Civic Tech refers to governments utilizing the technologies for service provision, citizen consultations, 
@@ -63,7 +63,7 @@ export default class CivicTech extends React.Component {
                     </a>
                     . Deliberative Democracy Digest.
                 </li>
-                <img className="project-img" src="/civic-tech/picture2.png" />
+                <img className="project-img" src="civic-tech/picture2.png" />
 
                 <li>
                     Zhang, W., Lim, G., Wang, Z., &amp; Perrault, S. (2020, October).    <u> #</u>
@@ -78,7 +78,7 @@ export default class CivicTech extends React.Component {
                     </em>
                     . Virtual.
                 </li>
-                <img className="project-img" src="/civic-tech/picture3.png" />
+                <img className="project-img" src="civic-tech/picture3.png" />
 
             </ol>
 
@@ -89,7 +89,7 @@ export default class CivicTech extends React.Component {
                     Singapore Research Nexus Virtual Event, FASS, NUS, May 12<sup>th</sup>,
                     2021. [video]
                 </li>
-                <img className="project-img" src="/civic-tech/picture4.png" style={{height:"600px", objectFit:"cover", objectPosition:"0 -360px"}}/>
+                <img className="project-img" src="civic-tech/picture4.png" style={{height:"600px", objectFit:"cover", objectPosition:"0 -360px"}}/>
 
                 <li>
                     <em>
@@ -112,11 +112,11 @@ export default class CivicTech extends React.Component {
             views of the funder.
             </p>
 
-            <img className="partner-img" src="/civic-tech/NUS CTIC.png"></img>
-            <img className="partner-img" src="/civic-tech/NUS EAI.png"></img>
+            <img className="partner-img" src="civic-tech/NUS CTIC.png"></img>
+            <img className="partner-img" src="civic-tech/NUS EAI.png"></img>
             <br />
-            <img className="partner-img" src="/civic-tech/SUTD.png"></img>
-            <img className="partner-img" src="/civic-tech/PCIJ.png"></img>
+            <img className="partner-img" src="civic-tech/SUTD.png"></img>
+            <img className="partner-img" src="civic-tech/PCIJ.png"></img>
 
 
 

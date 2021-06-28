@@ -74,7 +74,7 @@ export default class CulturalPublic extends React.Component {
                     TodayOnline ,</a> <a href="https://www.channelnewsasia.com/news/singapore/ge2020-swing-voters-pap-opposition-party-ips-survey-13230088">
                     Channel News Asia ,
                 </a> <a href="https://mothership.sg/2020/10/swing-voters-ge2020/">Mothership ,</a> <a href="https://mp.weixin.qq.com/s/DSOOUADKhytd5c6ZfHTwHQ">Zaobao WeChat.</a>
-                <img className="project-img" src="/cultural-publics/picture3.png" />
+                <img className="project-img" src="cultural-publics/picture3.png" />
                 </li>
 
                 <li>
@@ -88,7 +88,7 @@ export default class CulturalPublic extends React.Component {
                     <em> <a href="https://journals.sagepub.com/doi/full/10.1177/2059436420939322">Global Media and China</a>
                     </em> (GMC) and one in<em> <a href="https://doi.org/10.1080/17544750.2020.1848405">Chinese Journal of Communication</a>
                     </em> (CJoC), have been published based on the conference submissions.
-                    <img className="project-img" src="/cultural-publics/picture4.png" />
+                    <img className="project-img" src="cultural-publics/picture4.png" />
 
                 </li>
 
@@ -98,8 +98,8 @@ export default class CulturalPublic extends React.Component {
                         Publics in the Making" was published in May 2016. The translation
                         project was a collaboration with the then Annenberg PhD student, and
                         now Dr. Kecheng Fang.
-                        <img className="project-img" src="/cultural-publics/picture5.png" style={{width:"250px"}}/>
-                        <img className="project-img" src="/cultural-publics/picture6.png" style={{width:"250px"}}/>
+                        <img className="project-img" src="cultural-publics/picture5.png" style={{width:"250px"}}/>
+                        <img className="project-img" src="cultural-publics/picture6.png" style={{width:"250px"}}/>
 
                 </li>
  
@@ -273,18 +273,18 @@ export default class CulturalPublic extends React.Component {
                         <li>2017年4月1日 -- 中山大学</li>
                     </ul>
                 </li>
-                <img className="project-img" src="/cultural-publics/picture7.png" style={{height:"300px", width:"auto"}}/>
-                <img className="project-img" src="/cultural-publics/picture8.png" style={{height:"300px", width:"auto"}}/>
-                <img className="project-img" src="/cultural-publics/picture9.png" style={{height:"300px", width:"auto"}}/>
+                <img className="project-img" src="cultural-publics/picture7.png" style={{height:"300px", width:"auto"}}/>
+                <img className="project-img" src="cultural-publics/picture8.png" style={{height:"300px", width:"auto"}}/>
+                <img className="project-img" src="cultural-publics/picture9.png" style={{height:"300px", width:"auto"}}/>
                 <br />
-                <img className="project-img" src="/cultural-publics/picture10.png" style={{height:"auto", width:"200px"}}/>
-                <img className="project-img" src="/cultural-publics/picture11.png" style={{height:"auto", width:"400px"}}/>
+                <img className="project-img" src="cultural-publics/picture10.png" style={{height:"auto", width:"200px"}}/>
+                <img className="project-img" src="cultural-publics/picture11.png" style={{height:"auto", width:"400px"}}/>
 
 
                 <li>
                     A keynote speech on “celebrity activism on Weibo” was made at Chinese Internet Research Conference (CIRC) 2014, held at Hong Kong Polytech University. [slides]
                 </li>
-                <img className="project-img" src="/cultural-publics/picture12.png" style={{height:"300px", width:"auto"}}/>
+                <img className="project-img" src="cultural-publics/picture12.png" style={{height:"300px", width:"auto"}}/>
             </ol>
             
             <h2 className="subtitle">Partner Institutions</h2>
@@ -296,9 +296,9 @@ export default class CulturalPublic extends React.Component {
             reflect the views of the funder.
             </p>
 
-            <img className="partner-img" src="/cultural-publics/IPS.png"></img>
-            <img className="partner-img" src="/cultural-publics/UP.png"></img>
-            <img className="partner-img" src="/cultural-publics/MU.png"></img>
+            <img className="partner-img" src="cultural-publics/IPS.png"></img>
+            <img className="partner-img" src="cultural-publics/UP.png"></img>
+            <img className="partner-img" src="cultural-publics/MU.png"></img>
 
 
 

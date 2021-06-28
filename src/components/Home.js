@@ -20,15 +20,15 @@ export default class Home extends React.Component {
         <Row className="carousel-container">
             <Carousel infiniteLoop autoPlay interval="2500" width="80%">
                 <div>
-                    <img src="/cultural-publics/picture4.png" />
+                    <img src="cultural-publics/picture4.png" />
                     <p className="legend">Cultural Public Event Went Smoothly</p>
                 </div>
                 <div>
-                    <img src="/civic-tech/picture3.png" />
+                    <img src="civic-tech/picture3.png" />
                     <p className="legend">Promoting of Civic Tech are welcomed warmly</p>
                 </div>
                 <div>
-                    <img src="/youth-engagement/picture2.png" />
+                    <img src="youth-engagement/picture2.png" />
                     <p className="legend">Closing ceremony of Youth Engagement</p>
                 </div>
             </Carousel>
@@ -41,7 +41,7 @@ export default class Home extends React.Component {
             <Row className="home-content-intro">
                 <img
                     class="container-bg"
-                    src="/f7467f380545292cfe8bbe76eaf198c9.webp"
+                    src="f7467f380545292cfe8bbe76eaf198c9.webp"
                     alt=""
                 />
                 <div class="content">
@@ -53,7 +53,7 @@ export default class Home extends React.Component {
             <Row className="home-content-vision">
                 <img
                     class="container-bg"
-                    src="/images.jfif"
+                    src="images.jfif"
                     alt=""
                 />
                 <div class="content">
@@ -65,19 +65,19 @@ export default class Home extends React.Component {
             <Row className="home-content-mission">
                 <img
                     class="container-bg"
-                    src="/Our-Vision.jpg"
+                    src="Our-Vision.jpg"
                     alt=""
                 />
                 <div class="content">
                     <h1>OUR MISSION</h1>
                     <p className="home-para">Generate the highest quality research about Civic Technology. Strengthen the civic core of public-sector, private-sector actors and citizens. Design critically processes and technologies for the public good.  </p>
                 </div>
-            </Row>
+            </Row>k
 
             <Row className="home-content-history">
                 <img
                     class="container-bg"
-                    src="/our-history.jpg"
+                    src="our-history.jpg"
                     alt=""
                 />
                 <div class="content">

@@ -19,7 +19,7 @@ export default class News extends React.Component {
             <div class="news-container">
                 <img
                     class="news-container-bg"
-                    src="/news/690cafe534f955156ebd1ac6364dfff4.jpg"
+                    src="news/690cafe534f955156ebd1ac6364dfff4.jpg"
                     alt=""
                 />
                 <div class="news-content">
@@ -38,7 +38,7 @@ export default class News extends React.Component {
                     </em> (CJoC), have been published based on the conference submissions.
 
                     </p>
-                    <img className="project-img" src="/cultural-publics/picture4.png" />
+                    <img className="project-img" src="cultural-publics/picture4.png" />
 
                 </div>
             </div>
@@ -46,7 +46,7 @@ export default class News extends React.Component {
             <div class="news-container">
                 <img
                     class="news-container-bg"
-                    src="/news/690cafe534f955156ebd1ac6364dfff4.jpg"
+                    src="news/690cafe534f955156ebd1ac6364dfff4.jpg"
                     alt=""
                 />
                 <div class="news-content">
@@ -60,8 +60,8 @@ export default class News extends React.Component {
                         now Dr. Kecheng Fang.
 
                     </p>
-                    <img className="project-img" src="/cultural-publics/picture5.png" style={{width:"250px"}}/>
-                    <img className="project-img" src="/cultural-publics/picture6.png" style={{width:"250px"}}/>
+                    <img className="project-img" src="cultural-publics/picture5.png" style={{width:"250px"}}/>
+                    <img className="project-img" src="cultural-publics/picture6.png" style={{width:"250px"}}/>
 
                 </div>
             </div>

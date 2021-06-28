@@ -19,7 +19,7 @@ export default class CivicTech extends React.Component {
             <h2 className="subtitle">Introduction</h2>
             <h4>This research program focuses on enabling public participation in science and technology topics and 
             facilitating the communication between experts and ordinary citizens. </h4>
-            <img className="project-img" src="/citizen-science/picture1.png" />
+            <img className="project-img" src="citizen-science/picture1.png" />
             <p>
             Science and Technology topics (e.g., pandemics, climate change, gene editing, artificial intelligence) 
             have increasingly becoming the focus of public discussion. Public understanding of science and technology 
@@ -78,10 +78,10 @@ export default class CivicTech extends React.Component {
             and Merck. 
             </p>
 
-            <img className="partner-img" src="/citizen-science/picture2.png"></img>
-            <img className="partner-img" src="/citizen-science/picture3.png"></img>
-            <img className="partner-img" src="/citizen-science/picture4.png"></img>
-            <img className="partner-img" src="/citizen-science/picture5.png"></img>
+            <img className="partner-img" src="citizen-science/picture2.png"></img>
+            <img className="partner-img" src="citizen-science/picture3.png"></img>
+            <img className="partner-img" src="citizen-science/picture4.png"></img>
+            <img className="partner-img" src="citizen-science/picture5.png"></img>
 
 
 
