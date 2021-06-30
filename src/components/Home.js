@@ -10,11 +10,13 @@ import { Carousel } from 'react-responsive-carousel';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+import SideNav from "./SideNav.js"
 
 export default class Home extends React.Component {
   render() {
     return (
         <Container className="home">
+        <SideNav>Sidebar</SideNav>
 
         <Col xs={12} md={12} lg={12} className="home-width">
         <Row className="carousel-container">

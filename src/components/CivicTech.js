@@ -15,8 +15,8 @@ export default class CivicTech extends React.Component {
         <Container className="civic-tech">
         <Col xs={12} md={10} lg={8} className="civic-tech-width">
             <h1 className="title">Project - Civic Tech</h1>
-            <a href="/civic-tech/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download Report</Button></a>
-            <h2 className="subtitle">Introduction</h2>
+            <a href="/civic-tech/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a>
+            <h2 className="subtitle"></h2>
             <h4>This research program aims to examine and develop Civic Tech in Asian contexts.  </h4>
             <img className="project-img" src="civic-tech/picture1.png" />
             <p>
@@ -43,12 +43,12 @@ export default class CivicTech extends React.Component {
 
             <h2 className="subtitle">Collaborators</h2>
             <ul>
-                <li>Dr. Dongtao Qi - Co-PI; currently Research Fellow at East Asia Institute, NUS</li>
-                <li>Dr. Lim Tai Wei - Collaborator; currently Associate Professor, Singapore University of Social Sciences </li>
-                <li>Dr. Simon Perrault - Collaborator; currently Assistant Professor, Singapore University of Technology and Design </li>
-                <li>Gionnieve Lim  - Collaborator; currently PhD Student, Singapore University of Technology and Design (SUTD)</li>
+                <li><a href="https://sg.linkedin.com/in/dongtao-qi-ab70ba16b">Dr. Dongtao Qi</a> - Co-PI; currently Research Fellow at East Asia Institute, NUS</li>
+                <li><a href="https://www.suss.edu.sg/docs/default-source/default-document-library/cv_limtaiwei.pdf?sfvrsn=76940188_2">Dr. Lim Tai Wei</a> - Collaborator; currently Associate Professor, Singapore University of Social Sciences </li>
+                <li><a href="https://istd.sutd.edu.sg/people/faculty/simon-perrault#biography">Dr. Simon Perrault</a> - Collaborator; currently Assistant Professor, Singapore University of Technology and Design </li>
+                <li><a href="https://www.linkedin.com/in/gionnievelim/">Gionnieve Lim</a>  - Collaborator; currently PhD Student, Singapore University of Technology and Design (SUTD)</li>
                 <li>Ng Chin Seang - Research Assistant; currently undergrad student, Mathematics, NUS</li>
-                <li>Adhiraaj Anand - Research Assistant; currently Master Student, LKSPP, National University of Singapore</li>
+                <li><a href="https://www.linkedin.com/in/adhiraaj-anand">Adhiraaj Anand</a> - Research Assistant; currently Master Student, LKSPP, National University of Singapore</li>
                 <li>Areet Roychowdhury - Research Assistant; currently Undergraduate Student, Yale-NUS College</li>
             </ul>
 

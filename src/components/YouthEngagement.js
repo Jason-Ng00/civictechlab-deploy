@@ -15,8 +15,8 @@ export default class YOuthEngagement extends React.Component {
         <Container className="youth-engagement">
         <Col xs={12} md={10} lg={8} className="youth-engagement-width">
             <h1 className="title">Project - Youth Engagement</h1>
-            <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download Report</Button></a>
-            <h2 className="subtitle">Introduction</h2>
+            <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download</Button></a>
+            <h2 className="subtitle"></h2>
             <h4>This research program focuses on understanding the relationship between civic engagement of youth and Information Communication Technologies (ICTs).</h4>
             <img className="project-img" src="youth-engagement/picture1.png" />
 
@@ -39,11 +39,11 @@ export default class YOuthEngagement extends React.Component {
 
             <h2 className="subtitle">Collaborators</h2>
             <ul>
-                <li>Dr. Murray Print - Co-PI; Professor, Faculty of Arts and Social Sciences, University of Sydney</li>
-                <li>Dr. Joanne Lim Bee Yin - Co-PI; Associate Professor, University of Nottingham, Malaysia</li>
-                <li>Dr. Sahid Ullah - Co-PI; Professor, University of Chittagong, Bangladesh</li>
-                <li>Dr. Clarissa David- Co-PI; Professor, University of the Philippines </li>
-                <li>Dr. P. Vigneswara Ilavarasan - Co-PI; Professor, Indian Institute of Technology Delhi  </li>
+                <li><a href="https://www.sydney.edu.au/arts/about/our-people/academic-staff/murray-print.html">Dr. Murray Print - Co-PI; Professor, Faculty of Arts and Social Sciences, University of Sydney</a></li>
+                <li><a href="https://www.nottingham.edu.my/Social-Sciences/People/joanne.lim">Dr. Joanne Lim Bee Yin - Co-PI; Associate Professor, University of Nottingham, Malaysia</a></li>
+                <li><a href="https://www.linkedin.com/in/mohammad-sahid-ullah-6a948912/?originalSubdomain=bd">Dr. Sahid Ullah - Co-PI; Professor, University of Chittagong, Bangladesh</a></li>
+                <li><a href="https://www.linkedin.com/in/clarissa-david-5b8a851/?originalSubdomain=ph">Dr. Clarissa David- Co-PI; Professor, University of the Philippines</a> </li>
+                <li><a href="https://web.iitd.ac.in/~vignes/">Dr. P. Vigneswara Ilavarasan - Co-PI; Professor, Indian Institute of Technology Delhi </a> </li>
 
             </ul>
 

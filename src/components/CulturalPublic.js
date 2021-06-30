@@ -15,8 +15,8 @@ export default class CulturalPublic extends React.Component {
         <Container className="cultural-publics">
         <Col xs={12} md={10} lg={8} className="cultural-publics-width">
             <h1 className="title">Project - Cultural Public</h1>
-            <a href="/cultural-publics/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download Report</Button></a>
-            <h2 className="subtitle">Introduction</h2>
+            <a href="/cultural-publics/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a>
+            <h2 className="subtitle"></h2>
             <h4>This research program focuses on cultural publics in the era of network society. </h4>
             {/* <img className="project-img" src="/cultural-publics/picture1.png" style={{width:"50%"}}/> */}
             <p>
@@ -43,15 +43,14 @@ export default class CulturalPublic extends React.Component {
 
             <h2 className="subtitle">Collaborators</h2>
             <ul>
-                <li>Tan Tarn How - PI; Adjunct Senior Research Fellow, Institute of Policy Studies, NUS</li>
-                <li>Dr. Carol Soon - PI; Senior Research Fellow, Institute of Policy Studies, NUS</li>
-                <li>Dr. Natalie Pang - Co-PI; Senior Lecturer, CNM, NUS </li>
-                <li>Gionnieve Lim  - Collaborator; currently PhD Student, Singapore University of Technology and Design (SUTD)</li>
-                <li>Dr. Gulizar Haciyakupoglu  - PhD Graduate, 2016; currently Research Fellow at Nanyang Technological University</li>
-                <li>Dr. Kecheng Fang- Collaborator; currently Assistant Professor, Chinese University of Hong Kong</li>
-                <li>Dr. Chengting Mao - Research Assistant; currently Assistant Professor, Harbin Institute of Technology (Shenzhen Campus)</li>
-                <li>Dr. Rong Wang - Research Assistant; currently Assistant Professor, Department of Communication, University of Kentucky</li>
-                <li>Dr. Anfan Chen - Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at University of Science and Technology of China</li>
+                <li><a href="https://lkyspp.nus.edu.sg/ips/about-us/staff-directory/tan-tarn-how">Tan Tarn How</a> - PI; Adjunct Senior Research Fellow, Institute of Policy Studies, NUS</li>
+                <li><a href="https://lkyspp.nus.edu.sg/ips/about-us/staff-directory/soon-carol">Dr. Carol Soon</a> - PI; Senior Research Fellow, Institute of Policy Studies, NUS</li>
+                <li><a href="https://discovery.nus.edu.sg/11678-lee-san-natalie-pang">Dr. Natalie Pang</a> - Co-PI; Senior Lecturer, CNM, NUS </li>
+                <li><a href="https://www.rsis.edu.sg/profile/gulizar-haciyakupoglu/">Dr. Gulizar Haciyakupoglu</a>  - PhD Graduate, 2016; currently Research Fellow at Nanyang Technological University</li>
+                <li><a href="http://www.fangkc.com/">Dr. Kecheng Fang</a>- Collaborator; currently Assistant Professor, Chinese University of Hong Kong</li>
+                <li><a href="http://faculty.hitsz.edu.cn/maochengting">Dr. Chengting Mao</a> - Research Assistant; currently Assistant Professor, Harbin Institute of Technology (Shenzhen Campus)</li>
+                <li><a href="https://comm.uky.edu/people/wang">Dr. Rong Wang</a> - Research Assistant; currently Assistant Professor, Department of Communication, University of Kentucky</li>
+                <li><a href="https://www.researchgate.net/profile/Anfan-Chen">Dr. Anfan Chen</a> - Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at University of Science and Technology of China</li>
                 <li>Zhuo Chen - Research Assistant, PhD Candidate</li>
                 <li>Yipeng Xi - Research Assistant, PhD Candidate</li>
                 <li>Tong Tong - Visiting PhD Student, Tsinghua University</li>

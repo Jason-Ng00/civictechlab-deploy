@@ -16,7 +16,7 @@ export default class CivicTech extends React.Component {
         <Col xs={12} md={10} lg={8} className="citizen-science-width">
             <h1 className="title" style={{width:"100%"}}>Project - Citizen Science</h1>
 
-            <h2 className="subtitle">Introduction</h2>
+            <h2 className="subtitle"></h2>
             <h4>This research program focuses on enabling public participation in science and technology topics and 
             facilitating the communication between experts and ordinary citizens. </h4>
             <img className="project-img" src="citizen-science/picture1.png" />
@@ -35,15 +35,15 @@ export default class CivicTech extends React.Component {
 
             <h2 className="subtitle">Collaborators</h2>
             <ul>
-                <li>Dr. David Holmes - Co-PI; Founder and Director, Climate Change Communication Research, Monash University</li>
-                <li>Dr. Rong Wang - Co-PI; Assistant Professor, Department of Communication, University of Kentucky</li>
-                <li>Manjiang He - Research Assistant, Master Student, LKYSPP, NUS </li>
-                <li>Xing Zhang - Research Assistant, PhD Student, CNM, NUS </li>
-                <li>Ximing Liu - Research Assistant, Master student; currently Market Researcher at Tencent</li>
+                <li><a href="https://research.monash.edu/en/persons/david-holmes">Dr. David Holmes</a>- Co-PI; Founder and Director, Climate Change Communication Research, Monash University</li>
+                <li><a href="https://comm.uky.edu/people/wang">Dr. Rong Wang</a> - Co-PI; Assistant Professor, Department of Communication, University of Kentucky</li>
+                <li><a href="https://www.linkedin.com/in/manjianghe/">Manjiang He</a> - Research Assistant, Master Student, LKYSPP, NUS </li>
+                <li>Xing Zhang- Research Assistant, PhD Student, CNM, NUS </li>
+                <li><a href="https://www.linkedin.com/in/ximing-liu-951543b8/?originalSubdomain=cn">Ximing Liu</a> - Research Assistant, Master student; currently Market Researcher at Tencent</li>
                 <li>Jingjing Liang - Research Assistant, Master student; currently taking a break</li>
-                <li>Dr. Anfan Chen - Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at Chinese University of Hong Kong (CUHK)</li>
+                <li><a href="https://www.researchgate.net/profile/Anfan-Chen">Dr. Anfan Chen</a> - Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at Chinese University of Hong Kong (CUHK)</li>
                 <li>Kehan Yang - Research Assistant, Master Student, LKYSPP, NUS</li>
-                <li>Haodong Liu- Research Intern; currently Master graduate, City University of Hong Kong</li>
+                <li>Haodong Liu - Research Intern; currently Master graduate, City University of Hong Kong</li>
 
             </ul>
 

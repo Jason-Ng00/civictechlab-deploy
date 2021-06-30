@@ -10,21 +10,26 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
 
 export default class News extends React.Component {
-  render() {
+
+    constructor() {
+        super();
+        this.state = {
+            showYouthEngagement: true,
+            showCulturalPublic: true,
+            showOnlineDeliberation: true,
+            showCitizenScience:true,
+            showCivicTech:true,
+        };
+    }
+
+    render() {
     return (
         <Container className="news">
         <Col xs={12} md={10} lg={8} className="news-width">
             <h1 className="join-us-title">What's New</h1>
 
-            <div class="news-container">
-                <img
-                    class="news-container-bg"
-                    src="news/690cafe534f955156ebd1ac6364dfff4.jpg"
-                    alt=""
-                />
-                <div class="news-content">
-                    <p>25 Jun 2021</p>
-                    <h2 className="news-title">Event of Cultural Public</h2>
+
+            <NewsComponent className="culturalPublic" date="25 Jun 2020" title="Event of Cultural Public">
                     <p>
                     The 17th Chinese Internet Research Conference (CIRC) on “Digital Cultures:
                     Chinese Internet and Beyond” was held on June 28, 2019 in Orchard Hotel
@@ -40,39 +45,42 @@ export default class News extends React.Component {
                     </p>
                     <img className="project-img" src="cultural-publics/picture4.png" />
 
-                </div>
-            </div>
+            </NewsComponent>
 
-            <div class="news-container">
-                <img
-                    class="news-container-bg"
-                    src="news/690cafe534f955156ebd1ac6364dfff4.jpg"
-                    alt=""
-                />
-                <div class="news-content">
-                    <p>25 Jun 2021</p>
-                    <h2 className="news-title">Event of Cultural Public</h2>
-                    <p>
-                    An <a href="https://www.asc.upenn.edu/news-events/news/annenberg-student-and-alumna-collaborate-crowdsource-book-translation">
-                            interview</a> with Penn Annenberg on the crowdsourced translation of the book "Fandom
-                        Publics in the Making" was published in May 2016. The translation
-                        project was a collaboration with the then Annenberg PhD student, and
-                        now Dr. Kecheng Fang.
+            <NewsComponent date="25 Jun 2020" title="Event of Civic Tech">
+                <p>
+                An <a href="https://www.asc.upenn.edu/news-events/news/annenberg-student-and-alumna-collaborate-crowdsource-book-translation">
+                        interview</a> with Penn Annenberg on the crowdsourced translation of the book "Fandom
+                    Publics in the Making" was published in May 2016. The translation
+                    project was a collaboration with the then Annenberg PhD student, and
+                    now Dr. Kecheng Fang.
 
-                    </p>
-                    <img className="project-img" src="cultural-publics/picture5.png" style={{width:"250px"}}/>
-                    <img className="project-img" src="cultural-publics/picture6.png" style={{width:"250px"}}/>
-
-                </div>
-            </div>
-
-
-
-
-
+                </p>
+                <img className="project-img" src="cultural-publics/picture5.png" style={{width:"300px"}}/>
+                <img className="project-img" src="cultural-publics/picture6.png" style={{width:"300px"}}/>
+            </NewsComponent>
 
         </Col>
         </Container>
     );
   }
+}
+
+class NewsComponent extends React.Component {
+    render() {
+      return (
+        <div class="news-container">
+            <img
+                class="news-container-bg"
+                src="news/690cafe534f955156ebd1ac6364dfff4.jpg"
+                alt=""
+            />
+            <div class="news-content">
+                <p>{this.props.date}</p>
+                <h2 className="news-title">{this.props.title}</h2>
+                <div>{this.props.children}</div>
+            </div>
+        </div>
+      );
+    }
 }

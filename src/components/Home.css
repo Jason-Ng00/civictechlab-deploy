@@ -1,6 +1,7 @@
 .home {
     display:flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .home-width {

@@ -23,8 +23,8 @@ export default class OnlineDeliberation extends React.Component {
         <Container className="online-deliberation">
         <Col xs={12} md={10} lg={8} className="online-deliberation-width">
             <h1 className="title">Project - Online Deliberation</h1>
-            <a href="/online-deliberation/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download Report</Button></a>
-            <h2 className="subtitle">Introduction</h2>
+            <a href="/online-deliberation/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a>
+            <h2 className="subtitle"></h2>
             <p>
                 Are you concerned about the rising living cost in Singapore? The over-crowded MRT trains? 
                 The difficulty to find jobs due to competitions from foreign talents? Or the dilution of the Singapore identity and culture? 
@@ -57,21 +57,21 @@ export default class OnlineDeliberation extends React.Component {
 
             <h2 className="subtitle">Collaborators</h2>
             <ul>
-                <li>Dr. Leanne Chang - Associate Professor, Hong Kong Baptist University</li>
-                <li>Dr. Carol Soon - Senior Research Fellow, Institute of Policy Studies, NUS</li>
-                <li>Dr. Shengdong Zhao - Associate Professor, School of Computing, NUS</li>
-                <li>Dr. Simon Perrault - Postdoc Researcher</li>
+                <li><a href="http://www.coms.hkbu.edu.hk/faculty-staff/faculty/leannechang/">Dr. Leanne Chang</a> - Associate Professor, Hong Kong Baptist University</li>
+                <li><a href="https://lkyspp.nus.edu.sg/ips/about-us/staff-directory/soon-carol">Dr. Carol Soon</a> - Senior Research Fellow, Institute of Policy Studies, NUS</li>
+                <li><a href="https://shengdongzhao.com/newSite/">Dr. Shengdong Zhao</a> - Associate Professor, School of Computing, NUS</li>
+                <li><a href="https://istd.sutd.edu.sg/people/faculty/simon-perrault#biography">Dr. Simon Perrault</a> - Postdoc Researcher</li>
                 <li>Joseph Matthias Goh - Design Researcher</li>
-                <li>Jeffrey Effendy - Design Researcher</li>
-                <li>Samson Tan - Data Scientist</li>
-                <li>Sanju Menon - Research Assistant</li>
-                <li>Tian Yang - Research Assistant</li>
+                <li>Jeffrey Effendy- Design Researcher</li>
+                <li><a href="https://www.linkedin.com/in/samsontmr/">Samson Tan</a> - Data Scientist</li>
+                <li><a href="https://www.linkedin.com/in/sanjumenonp/">Sanju Menon</a> - Research Assistant</li>
+                <li><a href="https://www.asc.upenn.edu/people/graduate-student/tian-yang">Tian Yang</a> - Research Assistant</li>
                 <li>Yang Wang - Research Assistant</li>
                 <li>Jingjing Liang - Research Assistant</li>
-                <li>Naditha Das - Research Assistant</li>
+                <li>Naditha Davies - Research Assistant</li>
                 <li>Chengting Mao - Research Assistant</li>
                 <li>Sabrina Mercy Anthony - Research Assistant</li>
-                <li>Andrea Nehl Parinas Caliwag- Research Assistant</li>
+                <li>Andrea Nehl Parinas Caliwag - Research Assistant</li>
             </ul>
 
             <h2 className="subtitle">Events</h2>
