@@ -74,14 +74,6 @@ export default class OnlineDeliberation extends React.Component {
                 <li>Andrea Nehl Parinas Caliwag - Research Assistant</li>
             </ul>
 
-            <h2 className="subtitle">Events</h2>
-            <img className="project-img" src={picture4}></img>
-            <p>Deliberation and Decision Making (DDM2017): An Interdisciplinary Conference on Civic Tech</p>
-            <p>
-            The conference led to the publication of a symposium <a href="https://delibdemjournal.org/article/id/988/">“Online Deliberation and #CivicTech” featured in the Journal of Deliberative Democracy. 
-            </a>
-            </p>
-
             <h2 className="subtitle">Publications</h2>
             <ol>
             <li>

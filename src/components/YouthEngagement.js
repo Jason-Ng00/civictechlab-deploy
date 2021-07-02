@@ -39,40 +39,13 @@ export default class YOuthEngagement extends React.Component {
 
             <h2 className="subtitle">Collaborators</h2>
             <ul>
-                <li><a href="https://www.sydney.edu.au/arts/about/our-people/academic-staff/murray-print.html">Dr. Murray Print - Co-PI; Professor, Faculty of Arts and Social Sciences, University of Sydney</a></li>
-                <li><a href="https://www.nottingham.edu.my/Social-Sciences/People/joanne.lim">Dr. Joanne Lim Bee Yin - Co-PI; Associate Professor, University of Nottingham, Malaysia</a></li>
-                <li><a href="https://www.linkedin.com/in/mohammad-sahid-ullah-6a948912/?originalSubdomain=bd">Dr. Sahid Ullah - Co-PI; Professor, University of Chittagong, Bangladesh</a></li>
-                <li><a href="https://www.linkedin.com/in/clarissa-david-5b8a851/?originalSubdomain=ph">Dr. Clarissa David- Co-PI; Professor, University of the Philippines</a> </li>
-                <li><a href="https://web.iitd.ac.in/~vignes/">Dr. P. Vigneswara Ilavarasan - Co-PI; Professor, Indian Institute of Technology Delhi </a> </li>
+                <li><a href="https://www.sydney.edu.au/arts/about/our-people/academic-staff/murray-print.html">Dr. Murray Print</a> - Co-PI; Professor, Faculty of Arts and Social Sciences, University of Sydney</li>
+                <li><a href="https://www.nottingham.edu.my/Social-Sciences/People/joanne.lim">Dr. Joanne Lim Bee Yin</a> - Co-PI; Associate Professor, University of Nottingham, Malaysia</li>
+                <li><a href="https://www.linkedin.com/in/mohammad-sahid-ullah-6a948912/?originalSubdomain=bd">Dr. Sahid Ullah</a> - Co-PI; Professor, University of Chittagong, Bangladesh</li>
+                <li><a href="https://www.linkedin.com/in/clarissa-david-5b8a851/?originalSubdomain=ph">Dr. Clarissa David</a> - Co-PI; Professor, University of the Philippines </li>
+                <li><a href="https://web.iitd.ac.in/~vignes/">Dr. P. Vigneswara Ilavarasan</a> - Co-PI; Professor, Indian Institute of Technology Delhi </li>
 
             </ul>
-
-            <h2 className="subtitle">Events</h2>
-            <ol>
-                <li>
-
-                    <p>ICTs and Development: An International Workshop for Theory, Practice and Policy</p>
-                    <img className="project-img" src="youth-engagement/picture2.png" />
-                    <p>March 2010, IIT Delhi</p>
-                </li>
-                <li>
-
-                    <p>Session on “Youth, ICTs and Political Engagement in Asia” [slides]
-                        <br />19th AMIC Annual Conference “Technology and Culture: Communication Connectors and Dividers”
-                    </p>
-                    <img className="project-img" src="youth-engagement/picture3.png" />
-                    <p>21-23 June 2010 Suntec, Singapore</p>
-                </li>
-                <li>
-
-                    <p>Session on “Youth, ICTs, And Civil Engagement in Asia: A Comparative Approach”
-                        <br />International Association of Media and Communication Research Conference 
-                    </p>
-                    <img className="project-img" src="youth-engagement/picture4.png" />
-                    <p>15-20 July 2012, South Africa</p>
-
-                </li>
-            </ol>
 
             <h2 className="subtitle">Publications</h2>
             <ol>

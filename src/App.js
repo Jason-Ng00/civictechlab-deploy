@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import React, { Component }  from 'react';
+import React, { Component, useEffect, useState }  from 'react';
 import './App.css';
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,11 +15,14 @@ import CitizenScience from "./components/CitizenScience.js"
 import CulturalPublic from "./components/CulturalPublic.js"
 import JoinUs from "./components/JoinUs.js"
 import News from "./components/News.js"
+import ScrollToTop from "./components/ScrollToTop.js"
+
 import { HashRouter, Route, Link, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+
       <NavBar></NavBar>
       <HashRouter basename={process.env.PUBLIC_URL}>
       <Switch>                
@@ -35,6 +38,7 @@ function App() {
         <Route path='/' component={Home}/>            
       </Switch>
       </HashRouter>
+      <ScrollToTop />
       <Footer></Footer>
     </div>
   );

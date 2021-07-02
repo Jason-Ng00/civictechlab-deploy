@@ -56,53 +56,6 @@ export default class CulturalPublic extends React.Component {
                 <li>Tong Tong - Visiting PhD Student, Tsinghua University</li>
             </ul>
             
-            <h2 className="subtitle">Events</h2>
-            <ol>
-                <li>
-                <a
-                    href="https://lkyspp.nus.edu.sg/ips/news/details/ips-online-forum-on-internet-and-media-use-in-general-election-2020"
-                >
-                    A forum on <strong>
-                        Internet and Media Use in Singapore’s General Election 2020
-                    </strong>
-                </a> was held online on October 8<sup>th</sup>, 2020
-                    and open to the public. The research team was led by Dr. Carol Soon
-                    from Institute of Policy Studies, NUS. The study was reported and
-                    covered in local media:
-                <a href="https://www.todayonline.com/singapore/ips-post-ge2020-forum-older-voters-catch-digital-use-parties-missed-crucial-online-signals">
-                    TodayOnline ,</a> <a href="https://www.channelnewsasia.com/news/singapore/ge2020-swing-voters-pap-opposition-party-ips-survey-13230088">
-                    Channel News Asia ,
-                </a> <a href="https://mothership.sg/2020/10/swing-voters-ge2020/">Mothership ,</a> <a href="https://mp.weixin.qq.com/s/DSOOUADKhytd5c6ZfHTwHQ">Zaobao WeChat.</a>
-                <img className="project-img" src="cultural-publics/picture3.png" />
-                </li>
-
-                <li>
-                    The 17th Chinese Internet Research Conference (CIRC) on “Digital Cultures:
-                    Chinese Internet and Beyond” was held on June 28, 2019 in Orchard Hotel
-                    Singapore. The conference was co-hosted by NUS and Murdoch University. More
-                    than 60 participants registered for this day long conference, including
-                    both academics and government officials. Researchers coming from all over
-                    the world (China, Australia, United Stated, Netherlands, Singapore, etc)
-                    made 29 presentations during the day. Two special issues, one in
-                    <em> <a href="https://journals.sagepub.com/doi/full/10.1177/2059436420939322">Global Media and China</a>
-                    </em> (GMC) and one in<em> <a href="https://doi.org/10.1080/17544750.2020.1848405">Chinese Journal of Communication</a>
-                    </em> (CJoC), have been published based on the conference submissions.
-                    <img className="project-img" src="cultural-publics/picture4.png" />
-
-                </li>
-
-                <li>
-                    An <a href="https://www.asc.upenn.edu/news-events/news/annenberg-student-and-alumna-collaborate-crowdsource-book-translation">
-                            interview</a> with Penn Annenberg on the crowdsourced translation of the book "Fandom
-                        Publics in the Making" was published in May 2016. The translation
-                        project was a collaboration with the then Annenberg PhD student, and
-                        now Dr. Kecheng Fang.
-                        <img className="project-img" src="cultural-publics/picture5.png" style={{width:"250px"}}/>
-                        <img className="project-img" src="cultural-publics/picture6.png" style={{width:"250px"}}/>
-
-                </li>
- 
-            </ol>
 
             <h2 className="subtitle">Publications</h2>
             <ol>
