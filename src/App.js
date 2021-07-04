@@ -22,9 +22,9 @@ import { HashRouter, Route, Link, Switch } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-
       <NavBar></NavBar>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <div style={{height:"90px"}}></div>
+      <HashRouter basename={process.env.PUBLIC_URL} className = "content">
       <Switch>                
         <Route path='/home' component={Home}/>  
         <Route path='/people' component={People}/>               

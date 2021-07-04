@@ -12,7 +12,7 @@ export default class NavBar extends React.Component {
       <Container className="nav-container">
         <Col xs={12} md={12} lg={10} className="nav-column">
 
-          <Navbar className="navBar" expand="lg">
+          <Navbar className="navBar" sticky="top" expand="lg">
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Brand href="#home"><img src={logo} className="logo"/></Navbar.Brand>

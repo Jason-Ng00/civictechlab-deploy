@@ -208,36 +208,6 @@ export default class CulturalPublic extends React.Component {
                     . <em>Javnost-The Public, 13</em>(2), 41-64.
                 </li>            
             </ol>
-
-            <h2 className="subtitle">Presentations</h2>
-            <ol>
-                <li>
-                    A series of 9 book talks on "Fandom Publics in the Making" were made in either English or Chinese at various universities. [slides] 【演讲课件】
-                    <ul>
-                        <li>City University of Hong Kong, March 31st, 2017</li>
-                        <li>University of Virginia, March 21st, 2017</li>
-                        <li>Chinese University of Hong Kong, January 18th, 2017</li>
-                        <li>Leiden University, November 9th, 2016</li>
-                        <li>Royal Holloway University, September 20th, 2016</li>
-                        <li>2019年9月24日 -- 广西艺术学院</li>
-                        <li>2019年7月2日 -- 南京师范大学</li>
-                        <li>2018年9月25日 -- 南方科技大学</li>
-                        <li>2017年4月1日 -- 中山大学</li>
-                    </ul>
-                </li>
-                <img className="project-img" src="cultural-publics/picture7.png" style={{height:"300px", width:"auto"}}/>
-                <img className="project-img" src="cultural-publics/picture8.png" style={{height:"300px", width:"auto"}}/>
-                <img className="project-img" src="cultural-publics/picture9.png" style={{height:"300px", width:"auto"}}/>
-                <br />
-                <img className="project-img" src="cultural-publics/picture10.png" style={{height:"auto", width:"200px"}}/>
-                <img className="project-img" src="cultural-publics/picture11.png" style={{height:"auto", width:"400px"}}/>
-
-
-                <li>
-                    A keynote speech on “celebrity activism on Weibo” was made at Chinese Internet Research Conference (CIRC) 2014, held at Hong Kong Polytech University. [slides]
-                </li>
-                <img className="project-img" src="cultural-publics/picture12.png" style={{height:"300px", width:"auto"}}/>
-            </ol>
             
             <h2 className="subtitle">Partner Institutions</h2>
             <p>

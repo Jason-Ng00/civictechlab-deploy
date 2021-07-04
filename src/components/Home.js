@@ -19,7 +19,7 @@ export default class Home extends React.Component {
         <SideNav>Sidebar</SideNav>
 
         <Col xs={12} md={12} lg={12} className="home-width">
-        <Row className="carousel-container">
+        {/* <Row className="carousel-container">
             <Carousel infiniteLoop autoPlay interval="2500" width="80%">
                 <div>
                     <img src="cultural-publics/picture4.png" />
@@ -34,10 +34,12 @@ export default class Home extends React.Component {
                     <p className="legend">Closing ceremony of Youth Engagement</p>
                 </div>
             </Carousel>
-        </Row>
+        </Row> */}
             {/* <Row className="home-content-abput-us">
                 <h1>ABOUT US</h1>
             </Row> */}
+
+            <img className="logoGif" src="home/animated logo.gif" alt="animation" />
 
 
             <Row className="home-content-intro">
@@ -46,6 +48,34 @@ export default class Home extends React.Component {
                     <p className="home-para">CivicTech Lab at National University of Singapore is a research hub led by Dr. Weiyu Zhang. We are a team of social scientists, computer scientists, and digital cultural analysts. </p>
                 </div>
             </Row>
+            <CardDeck>
+                <Card>
+                    <Card.Img variant="top" src="home/team.jpg" />
+                    <Card.Body>
+                    <Card.Title>OUR TEAM</Card.Title>
+                    <Card.Text>
+                    Lacking of Content
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                    <small className="text-muted">CivicTechLab Team</small>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src="home/history.jpg" />
+                    <Card.Body>
+                    <Card.Title>OUR HISTORY</Card.Title>
+                    <Card.Text>
+                    The CivicTech Lab (formerly the Media Psychology Lab) was established in 2008 by Dr. Weiyu Zhang, as a central location for research projects on civic engagement and information communication technology conducted by the team. In the past years, the lab has produced research outputs on youth engagement, online deliberation, internet politics, citizen science, and civic technology, with a focus on the Asian region. 
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                    <small className="text-muted">CivicTechLab Team</small>
+                    </Card.Footer>
+                </Card>
+            </CardDeck>
+
+
             <CardDeck>
                 <Card>
                     <Card.Img variant="top" src="home/vector-vision-word-lettering.jpg" />
@@ -73,32 +103,7 @@ export default class Home extends React.Component {
                 </Card>
             </CardDeck>
 
-            <Card>
-                    <Card.Img variant="top" src="home/history.jpg" />
-                    <Card.Body>
-                    <Card.Title>OUR HISTORY</Card.Title>
-                    <Card.Text>
-                    The CivicTech Lab (formerly the Media Psychology Lab) was established in 2008 by Dr. Weiyu Zhang, as a central location for research projects on civic engagement and information communication technology conducted by the team. In the past years, the lab has produced research outputs on youth engagement, online deliberation, internet politics, citizen science, and civic technology, with a focus on the Asian region. 
-                    </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                    <small className="text-muted">CivicTechLab Team</small>
-                    </Card.Footer>
-                </Card>
 
-            <Jumbotron className="home-content-history">
-                <Row>
-                <Col>
-                    <h1>OUR HISTORY</h1>
-                    <p>
-                    The CivicTech Lab (formerly the Media Psychology Lab) was established in 2008 by Dr. Weiyu Zhang, as a central location for research projects on civic engagement and information communication technology conducted by the team. In the past years, the lab has produced research outputs on youth engagement, online deliberation, internet politics, citizen science, and civic technology, with a focus on the Asian region.                     </p>
-
-                </Col>
-                <Col>
-                    <img src="home/unnamed.jpg" />
-                </Col>
-                </Row>
-            </Jumbotron>
 
         </Col>
         </Container>

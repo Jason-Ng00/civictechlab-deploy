@@ -51,58 +51,7 @@ export default class CivicTech extends React.Component {
                 <li><a href="https://www.linkedin.com/in/adhiraaj-anand">Adhiraaj Anand</a> - Research Assistant; currently Master Student, LKSPP, National University of Singapore</li>
                 <li>Areet Roychowdhury - Research Assistant; currently Undergraduate Student, Yale-NUS College</li>
             </ul>
-
-            <h2 className="subtitle">Publications</h2>
-            <ol>
-                <li>
-                    Zhang, W. (2021, June).
-                    <a
-                        href="https://www.publicdeliberation.net/online-deliberation-and-civictech/"
-                    >
-                        Online deliberation and #CivicTech
-                    </a>
-                    . Deliberative Democracy Digest.
-                </li>
-                <img className="project-img" src="civic-tech/picture2.png" />
-
-                <li>
-                    Zhang, W., Lim, G., Wang, Z., &amp; Perrault, S. (2020, October).    <u> #</u>
-                    <a
-                        href="https://cscwcivictechnologies.files.wordpress.com/2020/10/civictech_for_and_by_citizens.pdf"
-                    >
-                        CivicTech For And By Citizens: A Review And A Meta-Evaluation
-                    </a>
-                    . In <em>
-                        Proceedings of Annual CSCW conference Workshop Position Papers on Civic
-                        Technologies
-                    </em>
-                    . Virtual.
-                </li>
-                <img className="project-img" src="civic-tech/picture3.png" />
-
-            </ol>
-
-            <h2 className="subtitle">Presentations</h2>
-            <ol>
-                <li>
-                    Zhang, W<em>. (2021). The history of Civic Tech in Singapore</em>,
-                    Singapore Research Nexus Virtual Event, FASS, NUS, May 12<sup>th</sup>,
-                    2021. [video]
-                </li>
-                <img className="project-img" src="civic-tech/picture4.png" style={{height:"600px", objectFit:"cover", objectPosition:"0 -360px"}}/>
-
-                <li>
-                    <em>
-                        Zhang, W. (2009). Pushing democracy: Prospects for media and technology
-                    </em>
-                    , Peace, Human Rights, Good Governance: East Asian Democracies at the
-                    Crossroads, The Philippine Center for Investigative Journalism, September
-                    30th, 2009. [slides]
-                </li>
-                {/* <img className="project-img" src="/civic-tech/picture5.png" style={{height:"300px", width:"auto"}}/> */}
-            </ol>
-
-            
+        
             <h2 className="subtitle">Partner Institutions</h2>
             <p>
             This research was funded by National University of Singapore’s Collaborative Research Seed 
