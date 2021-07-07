@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Nav, Navbar, NavDropdown, Col, Container} from "react-bootstrap";
+import {Nav, Navbar, NavDropdown, Col, Row, Container} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css"
 import logo from "../assets/logo.png"
@@ -10,12 +10,11 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <Container className="nav-container">
-        <Col xs={12} md={12} lg={10} className="nav-column">
 
-          <Navbar className="navBar" sticky="top" expand="lg">
+          <Navbar className="navBar" expand="lg">
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Brand href="#home"><img src={logo} className="logo"/></Navbar.Brand>
+          <Navbar.Brand as={Link} to="/honme"><img src={logo} className="logo"/></Navbar.Brand>
           <Col xs={0} md={5} lg={5} className="nav-column"></Col>
           
           <Navbar.Collapse id="basic-navbar-nav">
@@ -39,7 +38,6 @@ export default class NavBar extends React.Component {
           </Navbar.Collapse>
           </Navbar>
 
-        </Col>
       </Container>
     );
   }

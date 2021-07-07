@@ -42,41 +42,17 @@ export default class Home extends React.Component {
             <img className="logoGif" src="home/animated logo.gif" alt="animation" />
 
 
-            <Row className="home-content-intro">
+            {/* <Row className="home-content-intro">
                 <div class="content">
                     <h2>We are <span className="blue-h2">Professors</span></h2>
-                    <p className="home-para">CivicTech Lab at National University of Singapore is a research hub led by Dr. Weiyu Zhang. We are a team of social scientists, computer scientists, and digital cultural analysts. </p>
+                    <p className="home-para">CivicTech Lab at National University of Singapore is a research 
+                    hub led by Dr. Weiyu Zhang. We are a team of social scientists, computer scientists, and 
+                    digital cultural analysts. </p>
                 </div>
-            </Row>
-            <CardDeck>
-                <Card>
-                    <Card.Img variant="top" src="home/team.jpg" />
-                    <Card.Body>
-                    <Card.Title>OUR TEAM</Card.Title>
-                    <Card.Text>
-                    Lacking of Content
-                    </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                    <small className="text-muted">CivicTechLab Team</small>
-                    </Card.Footer>
-                </Card>
-                <Card>
-                    <Card.Img variant="top" src="home/history.jpg" />
-                    <Card.Body>
-                    <Card.Title>OUR HISTORY</Card.Title>
-                    <Card.Text>
-                    The CivicTech Lab (formerly the Media Psychology Lab) was established in 2008 by Dr. Weiyu Zhang, as a central location for research projects on civic engagement and information communication technology conducted by the team. In the past years, the lab has produced research outputs on youth engagement, online deliberation, internet politics, citizen science, and civic technology, with a focus on the Asian region. 
-                    </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                    <small className="text-muted">CivicTechLab Team</small>
-                    </Card.Footer>
-                </Card>
-            </CardDeck>
+            </Row> */}
 
-
-            <CardDeck>
+            <Row sm={1} md={2} lg={2}>
+            <Col>
                 <Card>
                     <Card.Img variant="top" src="home/vector-vision-word-lettering.jpg" />
                     <Card.Body>
@@ -86,9 +62,11 @@ export default class Home extends React.Component {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">CivicTechLab Team</small>
+                    <small className="text-muted"></small>
                     </Card.Footer>
                 </Card>
+                </Col>
+                <Col>
                 <Card>
                     <Card.Img variant="top" src="home/mission.jfif" />
                     <Card.Body>
@@ -98,10 +76,46 @@ export default class Home extends React.Component {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                    <small className="text-muted">CivicTechLab Team</small>
+                    <small className="text-muted"></small>
                     </Card.Footer>
                 </Card>
-            </CardDeck>
+                </Col>
+            </Row>
+            
+            <Row sm={1} md={2} lg={2}>
+            <Col>
+                <Card>
+                    <Card.Img variant="top" src="home/team.jpg" />
+                    <Card.Body>
+                    <Card.Title>OUR TEAM</Card.Title>
+                    <Card.Text>
+                    CivicTech Lab at National University of Singapore is a research hub led by Dr. Weiyu Zhang. 
+                    We are a team of social scientists, computer scientists, and digital cultural analysts.
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                    <small className="text-muted"></small>
+                    </Card.Footer>
+                </Card>
+            </Col>
+            <Col>
+                <Card>
+                    <Card.Img variant="top" src="home/history.jpg" />
+                    <Card.Body>
+                    <Card.Title>OUR HISTORY</Card.Title>
+                    <Card.Text>
+                    The CivicTech Lab (formerly the Media Psychology Lab) was established in 2008 by Dr. Weiyu Zhang, as a central location for research projects on civic engagement and information communication technology conducted by the team. In the past years, the lab has produced research outputs on youth engagement, online deliberation, internet politics, citizen science, and civic technology, with a focus on the Asian region. 
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                    <small className="text-muted"></small>
+                    </Card.Footer>
+                </Card>
+            </Col>
+            </Row>
+
+
+
 
 
 

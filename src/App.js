@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import React, { Component, useEffect, useState }  from 'react';
+import { useLocation } from "react-router-dom";
 import './App.css';
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,12 +20,23 @@ import ScrollToTop from "./components/ScrollToTop.js"
 
 import { HashRouter, Route, Link, Switch } from "react-router-dom";
 
+function ScrollRestoration() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
       <div style={{height:"90px"}}></div>
       <HashRouter basename={process.env.PUBLIC_URL} className = "content">
+      <ScrollRestoration />
       <Switch>                
         <Route path='/home' component={Home}/>  
         <Route path='/people' component={People}/>               
