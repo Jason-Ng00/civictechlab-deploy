@@ -256,7 +256,7 @@ export default class News extends React.Component {
                 hosted by The Philippine Center for Investigative Journalism. The presentation is 
                 titled “Pushing democracy: Prospects for media and technology.” [slides]
                 </p>
-                <img className="project-img" src="/civic-tech/picture5.png" style={{height:"300px", width:"auto"}}/>
+                <img className="project-img" src="civic-tech/picture5.png" style={{height:"300px", width:"auto"}}/>
             </NewsComponent>
 
 
