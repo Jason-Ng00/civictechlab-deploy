@@ -13,6 +13,11 @@
 
 }
 
+.logoAnimation {
+    width:60%;
+    border-radius:15px;
+}
+
 .carousel-root {
     display:flex;
     flex-direction: column;

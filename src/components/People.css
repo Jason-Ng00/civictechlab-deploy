@@ -4,7 +4,7 @@
 }
 
 .person {
-    margin: 0px 10px;
+    margin: 5px 10px;
     border: 1px solid #ccc;
     width: 250px;
     height: 450px;
@@ -18,10 +18,21 @@
     justify-content: space-evenly;
 }
 
+.person a {
+    text-decoration: none;    
+    color: #000000;
+}
+
+.person a:hover {
+    text-decoration: none;    
+    color: #999;
+}
+
 .person img {
     height: 240px;
     width: 240px;
     object-fit:cover;
+    object-position: 5% 20%;
 }
 
 .person p {

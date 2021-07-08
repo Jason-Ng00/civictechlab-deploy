@@ -23,7 +23,7 @@ export default class Footer extends React.Component {
              */}
             <Row className="footer-content" xs={1} md={2} lg={4}>
                 <Col xs={4} md={3} lg={3} className="footer-column">
-                    <h2>CivicTech Lab</h2>
+                    <h3>CivicTech Lab</h3>
                     <p>CivicTech Lab at National University of Singapore is a research hub led by Dr. Weiyu Zhang. We are a team of social scientists, computer scientists, and digital cultural analysts.  </p>
                 </Col>
                 <Col xs={4} md={3} lg={3} className="footer-column">
@@ -55,7 +55,7 @@ export default class Footer extends React.Component {
             </Row>
 
             <Row className="footer-bottom" xs={12} md={10} lg={8}>
-                <span>@2021 CIVICTECHLAB.ORG. ALL RIGHT RESERVED.</span>
+                <span>©2021 CIVICTECHLAB.ORG. ALL RIGHT RESERVED.</span>
             </Row>
         </Col>
         </Container>
