@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Container, Row, Col} from "react-bootstrap";
+import {Container, Row, Col, Card} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./People.css";
 import logo from "../assets/logo.png";
@@ -15,7 +15,7 @@ export default class People extends React.Component {
         <Container className="people">
         <Col xs={12} md={10} lg={10} className="people-width">
         <h1>Current Team</h1>
-            <Row xs={1} sm={2} md={2} lg={3}>
+            <Row xs={1} sm={2} md={2} lg={4}>
                 <Col><Person name="Dr. Weiyu Zhang" img="weiyu.png" link="http://www.weiyuzhang.net/"
                 position="Founder & Director; currently Associate Professor, Department of Communications and New Media, National University of Singapore."></Person></Col>
                 <Col><Person name="Zhuo Chen" img="zhuochen.png" position="PhD Candidate "></Person></Col>
@@ -31,7 +31,7 @@ export default class People extends React.Component {
             </Row>
             <br/>
             <h1>Alumni</h1>
-            <Row xs={1} sm={2} md={2} lg={3}>
+            <Row xs={1} sm={2} md={2} lg={4}>
 
                 <Col><Person name="Anfan Chen" img="anfan.png" link="https://www.researchgate.net/profile/Anfan-Chen" position="Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at Chinese University of Hong Kong (CUHK)"></Person></Col>
                 <Col><Person name="Ximing Liu" img="ximing.png" link="https://www.linkedin.com/in/ximing-liu-951543b8/?originalSubdomain=cn" position="Master Graduate, 2019; currently Market Researcher at Tencent"></Person></Col>
@@ -56,14 +56,42 @@ export default class People extends React.Component {
   }
 }
 
-class Person extends React.Component {
-    render() {
-      return (
-          <div className="person">
-            <a href={this.props.link}><h4>{this.props.name}</h4></a>
-            <img src={this.props.img} />
-            <p>{this.props.position}</p>
-          </div>
-      );
+function Person(props) {
+    if(props.link) {
+        return (
+            <div className="person">
+              <a href={props.link}><h4>{props.name}</h4></a>
+              <img src={props.img} />
+              <p>{props.position}</p>
+              <div className="person-footer">
+                  <small className="text-muted"><a href={props.link}>Website</a></small>
+              </div>
+            </div>
+        )
+    } else {
+        return (
+            <div className="person">
+              <a href={props.link}><h4>{props.name}</h4></a>
+              <img src={props.img} />
+              <p>{props.position}</p>
+              <div className="person-footer">
+                  <small className="text-muted"><a href={props.link}>Website not Available</a></small>
+              </div>
+            </div>
+        )
     }
+
+
+                // <Card>
+                //     <Card.Img variant="top" src={this.props.img}/>
+                //     <Card.Body>
+                //     <Card.Title>{this.props.name}</Card.Title>
+                //     <Card.Text>
+                //     An interdisciplinary, cross-sectoral and collaborative approach to tackling civic challenges. 
+                //     </Card.Text>
+                //     </Card.Body>
+                //     <Card.Footer>
+                //     <small className="text-muted" show={this.props.link}><a href={this.props.link}>Website</a></small>
+                //     </Card.Footer>
+                // </Card>
   }

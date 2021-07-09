@@ -38,10 +38,12 @@ export default class Home extends React.Component {
             {/* <Row className="home-content-abput-us">
                 <h1>ABOUT US</h1>
             </Row> */}
-            <video autoPlay loop playsinline className="logoAnimation">
+            {/* <video autoPlay loop playsinline className="logoAnimation">
                 <source src="home/Animation with music.mp4" type="video/mp4" />
                 <img className="logoGif" src="home/animated logo.gif" alt="animation" />
-            </video>
+            </video> */}
+            <img className="logoGif" src="home/animated logo.gif" alt="animation" />
+
 
             {/* <Row className="home-content-intro">
                 <div class="content">

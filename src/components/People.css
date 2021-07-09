@@ -8,6 +8,7 @@
     border: 1px solid #ccc;
     width: 250px;
     height: 450px;
+    position:relative;
 }
 
 .person h4 {
@@ -31,6 +32,7 @@
 .person img {
     height: 240px;
     width: 240px;
+    overflow:hidden;
     object-fit:cover;
     object-position: 5% 20%;
 }
@@ -54,3 +56,10 @@
     justify-content: center;
 }
 
+.person .person-footer {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    background-color: #e7e7e7;
+    
+}
