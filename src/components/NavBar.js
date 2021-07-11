@@ -13,9 +13,9 @@ export default class NavBar extends React.Component {
 
           <Navbar className="navBar" expand="lg">
 
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
           <Navbar.Brand as={Link} to="/honme"><img src={logo} className="logo"/></Navbar.Brand>
-          <Col xs={0} md={5} lg={5} className="nav-column"></Col>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           
           <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">

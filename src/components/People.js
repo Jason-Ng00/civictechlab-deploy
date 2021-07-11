@@ -15,7 +15,7 @@ export default class People extends React.Component {
         <Container className="people">
         <Col xs={12} md={10} lg={10} className="people-width">
         <h1>Current Team</h1>
-            <Row xs={1} sm={2} md={2} lg={4}>
+            <Row xs={1} sm={2} md={2} lg={3}>
                 <Col><Person name="Dr. Weiyu Zhang" img="weiyu.png" link="http://www.weiyuzhang.net/"
                 position="Founder & Director; currently Associate Professor, Department of Communications and New Media, National University of Singapore."></Person></Col>
                 <Col><Person name="Zhuo Chen" img="zhuochen.png" position="PhD Candidate "></Person></Col>
@@ -31,7 +31,7 @@ export default class People extends React.Component {
             </Row>
             <br/>
             <h1>Alumni</h1>
-            <Row xs={1} sm={2} md={2} lg={4}>
+            <Row xs={1} sm={2} md={2} lg={3}>
 
                 <Col><Person name="Anfan Chen" img="anfan.png" link="https://www.researchgate.net/profile/Anfan-Chen" position="Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at Chinese University of Hong Kong (CUHK)"></Person></Col>
                 <Col><Person name="Ximing Liu" img="ximing.png" link="https://www.linkedin.com/in/ximing-liu-951543b8/?originalSubdomain=cn" position="Master Graduate, 2019; currently Market Researcher at Tencent"></Person></Col>
