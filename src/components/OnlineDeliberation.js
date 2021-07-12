@@ -270,7 +270,7 @@ export default class OnlineDeliberation extends React.Component {
             <ol className="online-deliberation-tools">
                 <li>
                     <h3 className="h3title">Platform Demo</h3>
-                    <video src="/online-deliberation/Tutorial Video.mp4" width="80%" height="auto" controls="controls" autoplay="false" />
+                    <video src="video/Tutorial Video(with opening).mp4" width="80%" height="auto" controls="controls"/>
                 </li>
                 <li>
                     <h3 className="h3title">Graph Editor</h3>

@@ -52,14 +52,15 @@ export default class CivicTech extends React.Component {
                 <li>
                     Zhang, W., Chua, G., See, C. (July 2021). <em>The Role of Social Media in China’s Lifeworld Environmentalism</em>,
                     paper presented at the 2021 Annual Conference of International Association
-                    of Media and Communication Research, virtual due to Covid-19. [video]
+                    of Media and Communication Research, virtual due to Covid-19.
+                    [video]
                 </li>
                 <li>
                     Zhang, X., Chen, A., &amp; Zhang, W. (online first). <a href="https://doi.org/10.1177%2F0963662520987754">
                         Before and after the Chinese gene-edited human babies: Multiple
                         discourses of gene editing on social media.
-                    </a> <em>Public Understanding of Science</em>
-                    . [video]
+                    </a> <em>Public Understanding of Science.</em>
+                    <video src="video/CIRC 2021_Xing(with opening).mp4" width="80%" height="auto" controls="controls"/>
                 </li>
                 <li>
                     Liang, J., Liu, X., Zhang, W. (2019) <a href="https://doi.org/10.1177%2F0963662519876782">

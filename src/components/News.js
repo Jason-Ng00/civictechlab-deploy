@@ -58,21 +58,30 @@ export default class News extends React.Component {
                 <ToggleButton className="cultural-publics-news cultural-publics-button" value={4} active>Cultural Public</ToggleButton>
                 <ToggleButton className="youth-engagement-news youth-engagement-button" value={5} active>Youth Engagemnet</ToggleButton>
             </ToggleButtonGroup>
-
+    
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="18 July 2021" subtags={["events", "India", "China", "Singapore", "Japan"]} title="IAMCR’s CPT co-organized the 1st CNM books week with CCA">
             <p>
             With the help of Dr. Jack Linchuan Qiu, the CPT section of IAMCR co-organized, along with Chinese 
             Communication Association, the Inaugural CNM Books Week at the National U of Singapore in mid-July 
             2021. The full event series covered 7 books, of which CCA co-branded 3 events on: The Other Digital 
             China (Jing Wang, 2019); Prototype Nation (Silvia Lindtner, 2020); and The Singapore Perspectives: 
-            Politics (Natalie Pang and Shamil Zainuddin, 2021). All 7 talks’ e-posters can be accessed here: 
-            <a href="https://www.dropbox.com/s/gnk8lqni6c8x2t5/Posters.pdf?dl=0">https://www.dropbox.com/s/gnk8lqni6c8x2t5/Posters.pdf?dl=0</a>
+            Politics (Natalie Pang and Shamil Zainuddin, 2021). All 7 talks’ e-posters can be accessed here:  <a href="https://www.dropbox.com/s/gnk8lqni6c8x2t5/Posters.pdf?dl=0">https://www.dropbox.com/s/gnk8lqni6c8x2t5/Posters.pdf?dl=0</a>
             </p>
                 <img className="project-img" src="news/picture7.png" />
+            </NewsComponent>
+
+            <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="27 June 2021" subtags={["presentations", "China"]} title="Presentation on “Traffic media in China”">
+            <p>
+            Dr. Weiyu Zhang delivered a presentation on “Traffic media: How algorithmic imaginations and practices change content production,” 
+            during the 18th Chinese Internet Research Conference co-hosted by RMIT, Deakin Univ., QUT, USC Anneberg, and NUS. 
+            </p>
+                <video src="video/3D_Weiyu_Zhang (with opening).mp4" width="80%" height="auto" controls="controls"/>
+        
+                <img className="project-img" src="news/picture8.png" />
 
             </NewsComponent>
-            
-            <NewsComponent className="citizen-science-news" class="citizen-science-news-content" tag="Citizen Science" subtags={["op-ed", "presentations", "China"]} date="26 June 2021" title="Op-ed on “Online deliberation is civic tech”">
+
+            <NewsComponent className="citizen-science-news" class="citizen-science-news-content" tag="Citizen Science" subtags={["op-ed", "presentations", "China"]} date="26 June 2021" title="Presentation on “Multiple Discourses of Gene Editing on Social Media”">
                 <p>
                 PhD student Xing Zhang made a presentation on “Multiple Discourses of Gene Editing on Social Media: 
                 A Case Study of Chinese Gene-Edited Human Babies,” during the 18th Chinese Internet Research Conference 
@@ -101,7 +110,8 @@ export default class News extends React.Component {
                 agencies, and the public. [video]
                 </p>
                 <img className="project-img" src="civic-tech/picture4.png"/> 
-                {/* style={{height:"600px", objectFit:"cover", objectPosition:"0 -360px"}} */}
+                {/* <video src="Weiyu Zhang _ The history of Civic Tech in Singapore- An Actor-Network Analysis(with opening).mp4" width="80%" height="auto" controls="controls"/> */}
+
             </NewsComponent>
             
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" subtags={["presentations", "singapore"]}date="28 October 2020" title="IPS forum on Internet and Media Use in Singapore’s General Election 2020">
@@ -114,8 +124,7 @@ export default class News extends React.Component {
                 </a> was held online on October 8<sup>th</sup>, 2020
                     and open to the public. The research team was led by Dr. Carol Soon
                     from Institute of Policy Studies, NUS. The study was reported and
-                    covered in local media:
-                <a href="https://www.todayonline.com/singapore/ips-post-ge2020-forum-older-voters-catch-digital-use-parties-missed-crucial-online-signals">
+                    covered in local media: <a href="https://www.todayonline.com/singapore/ips-post-ge2020-forum-older-voters-catch-digital-use-parties-missed-crucial-online-signals">
                     TodayOnline ,</a> <a href="https://www.channelnewsasia.com/news/singapore/ge2020-swing-voters-pap-opposition-party-ips-survey-13230088">
                     Channel News Asia ,
                 </a> <a href="https://mothership.sg/2020/10/swing-voters-ge2020/">Mothership ,</a> <a href="https://mp.weixin.qq.com/s/DSOOUADKhytd5c6ZfHTwHQ">Zaobao WeChat.</a>
@@ -140,7 +149,7 @@ export default class News extends React.Component {
 
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="24 September 2019" subtags={["presentations", "China"]} title="Forum on Internet and Media Use in Singapore’s General Election 2020">
             <p>
-                    A series of 9 book talks on "Fandom Publics in the Making" were made in either English or Chinese at various universities. [slides] 【演讲课件】
+                    A series of 9 book talks on "Fandom Publics in the Making" were made in either English or Chinese at various universities. <br /><a href="https://nusu-my.sharepoint.com/:p:/r/personal/cnmzw_nus_edu_sg/_layouts/15/Doc.aspx?sourcedoc=%7BFF3B9FBE-0CDA-4B14-8A1D-D9D61FCFEEF6%7D&file=fandom%20publics%20in%20the%20making.ppt&action=edit&mobileredirect=true">【演讲课件】</a>
                     <ul>
                         <li>City University of Hong Kong, March 31st, 2017</li>
                         <li>University of Virginia, March 21st, 2017</li>
@@ -157,8 +166,8 @@ export default class News extends React.Component {
                 <img className="project-img" src="cultural-publics/picture8.png" style={{height:"300px", width:"auto"}}/>
                 <img className="project-img" src="cultural-publics/picture9.png" style={{height:"300px", width:"auto"}}/>
                 <br />
-                <img className="project-img" src="cultural-publics/picture10.png" style={{height:"auto", width:"200px"}}/>
-                <img className="project-img" src="cultural-publics/picture11.png" style={{height:"auto", width:"400px"}}/>
+                <img className="project-img" src="cultural-publics/picture10.png" style={{height:"300px", width:"auto"}}/>
+                <img className="project-img" src="cultural-publics/picture11.png" style={{height:"300px", width:"auto"}}/>
             </NewsComponent>
 
 
@@ -190,9 +199,9 @@ export default class News extends React.Component {
             </NewsComponent>
 
 
-            <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Public" subtags={["interviews", "China"]} date="2 June 2016" title="Interview with Penn Annenberg on the crowdsourced translation of the book 'FandomPublics in the Making'">
+            <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" subtags={["interviews", "China"]} date="2 June 2016" title="Interview with Penn Annenberg on the crowdsourced translation of the book 'FandomPublics in the Making'">
                     <p>
-                    Dr. Weiyu Zhang haad an <a href="https://www.asc.upenn.edu/news-events/news/annenberg-student-and-alumna-collaborate-crowdsource-book-translation">
+                    Dr. Weiyu Zhang had an <a href="https://www.asc.upenn.edu/news-events/news/annenberg-student-and-alumna-collaborate-crowdsource-book-translation">
                         interview</a> with Penn Annenberg on the crowdsourced translation of the book "Fandom
                         Publics in the Making" was published in May 2016. The translation
                         project was a collaboration with the then Annenberg PhD student, and
@@ -213,8 +222,8 @@ export default class News extends React.Component {
 
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics"  subtags={["presentations", "china"]} date="30 June 2014" title="Keynote speech on “celebrity activism on Weibo”">
                 <p>Dr. Weiyu Zhang gave a keynote speech on “celebrity activism on Weibo” at the 2014 Chinese Internet 
-                Research Conference (CIRC) , held at Hong Kong Polytech University. [slides]</p>
-                <img className="project-img" src="cultural-publics/picture12.png" />
+                Research Conference (CIRC) , held at Hong Kong Polytech University. <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/cultural publics/celebrity activism on weibo_2.ppt?d=wb7c70e7d45ad456abf30041734fe5968">[slides]</a></p>
+                <img className="project-img" src="cultural-publics/picture12.png" style={{width:"400px"}}/>
             </NewsComponent>
 
             <NewsComponent className="youth-engagement-news" class="youth-engagement-news-content" tag="Youth Engagement" subtags={["presentations", "south africa", "Asia" ]} date="21 July 2012" title="Panel on “Youth, ICTs, And Civil Engagement in Asia: A Comparative Approach”">
@@ -224,26 +233,28 @@ export default class News extends React.Component {
             </NewsComponent>
 
             <NewsComponent className="youth-engagement-news" class="youth-engagement-news-content" tag="Youth Engagement" subtags={["presentations", "south korea"]} date="18 August 2011" title="Keynote lecture for the 22nd International Youth Forum">
-                <p>Dr. Weiyu Zhang was invited to speak at the Joint Summer School by Chinese University of Communication, 
-                Chinese University of Hong Kong, University of Westminster and University of Pennsylvania, Chinese University of 
-                Communication. The talk is titled “Youth Engagement and ICTs in Asia: A Comparative Approach.” [slides] </p>
+                <p>Dr. Weiyu Zhang was invited to deliver a keynote lecture at the 22nd International Youth Forum, Ministry of 
+                Gender Equality and Family and National Council of Youth Organizations in South Korea. 
+                The talk is titled “Change, Youth, Failure, Excellence.”  <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/youth engagement/Change%2C Youth%2C Failure%2C Excellence.ppt?d=w357b922ba8d24c198fbf40bb543aa809">[slides]</a>
+                <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/youth engagement/A talk prepared for the 22nd International Youth Forum.doc?d=w7a02169826d244b781a751ca8fada929">[transcript]</a> </p>
                 <img className="project-img" src="news/picture2.png" />
             </NewsComponent>
 
             <NewsComponent className="youth-engagement-news" class="youth-engagement-news-content" tag="Youth Engagement" subtags={["presentations", "Asia"]} date="8 July 2010" title="Presentation on “Youth Engagement and ICTs in Asia” ">
                 <p>Dr. Weiyu Zhang was invited to speak at the Joint Summer School by Chinese University of Communication, 
                 Chinese University of Hong Kong, University of Westminster and University of Pennsylvania, Chinese University of 
-                Communication. The talk is titled “Youth Engagement and ICTs in Asia: A Comparative Approach.” [slides] </p>
+                Communication. The talk is titled “Youth Engagement and ICTs in Asia: A Comparative Approach.” <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/youth engagement/CUC presentation.pptx?d=w69a02116c063402c92d238392373d1d4">[slides]</a>
+                </p>
                 <img className="project-img" src="news/picture1.png" />
             </NewsComponent>
 
             <NewsComponent className="youth-engagement-news" class="youth-engagement-news-content" tag="Youth Engagement" subtags={["presentations", "Asia"]} date="24 June 2010" title="Panel on “Youth, ICTs and Political Engagement in Asia” ">
                 <p>The team of researchers collectively presented at a panel during the 19th AMIC Annual Conference 
-                “Technology and Culture: Communication Connectors and Dividers”, held in Singapore.  [slides]   </p>
+                “Technology and Culture: Communication Connectors and Dividers”, held in Singapore.  <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/youth engagement/intro_amic.pptx?d=w273876f4d20f40228f8f99c9743da6ba">[slides]</a>   </p>
                 <img className="project-img" src="youth-engagement/picture3.png" />
             </NewsComponent>
 
-            <NewsComponent className="youth-engagement-news" class="youth-engagement-news-content" tag="Youth Engagement" subtags={["workshop", "Delhi"]} date="31 March 2010" title="Participation in an International Workshop on ICTs and Development">
+            <NewsComponent className="youth-engagement-news" class="youth-engagement-news-content" tag="Youth Engagement" subtags={["workshop", "India"]} date="31 March 2010" title="Participation in an International Workshop on ICTs and Development">
                 <p>Dr. Weiyu Zhang was invited to participate in an International Workshop on ICTs and Development, 
                 held in IIT Dehli, India. </p>
                 <img className="project-img" src="youth-engagement/picture2.png" />
@@ -254,7 +265,7 @@ export default class News extends React.Component {
                 Dr. Weiyu Zhang delivered an invited talk on e-democracy as part of a conference 
                 “Peace, Human Rights, Good Governance: East Asian Democracies at the Crossroads”, 
                 hosted by The Philippine Center for Investigative Journalism. The presentation is 
-                titled “Pushing democracy: Prospects for media and technology.” [slides]
+                titled “Pushing democracy: Prospects for media and technology.” <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/civic tech/Pushing Democracy.ppt?d=wc758c1a0c9d848f98f874b10c4c1c850">[slides]</a> 
                 </p>
                 <img className="project-img" src="civic-tech/picture5.png" style={{height:"300px", width:"auto"}}/>
             </NewsComponent>

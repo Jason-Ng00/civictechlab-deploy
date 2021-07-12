@@ -71,7 +71,9 @@ export default class CulturalPublic extends React.Component {
                         Traffic media: how algorithmic imaginations and practices change
                         content production
                     </a>
-                    . <em>Chinese Journal of Communication, 14(</em>1). 58-74. [video]
+                    . <em>Chinese Journal of Communication, 14(</em>1). 58-74. 
+                    <video src="video/3D_Weiyu_Zhang (with opening).mp4" width="80%" height="auto" controls="controls"/>
+
                 </li>
                 <li>
                     Zhang, W., &amp; Neyazi, T. A. (2020). <a href="https://www.tandfonline.com/doi/pdf/10.1080/23808985.2019.1667852">

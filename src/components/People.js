@@ -33,14 +33,14 @@ export default class People extends React.Component {
             <h1>Alumni</h1>
             <Row xs={1} sm={2} md={2} lg={3}>
 
-                <Col><Person name="Anfan Chen" img="anfan.png" link="https://www.researchgate.net/profile/Anfan-Chen" position="Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at Chinese University of Hong Kong (CUHK)"></Person></Col>
+                <Col><Person name="Dr. Anfan Chen" img="anfan.png" link="https://www.researchgate.net/profile/Anfan-Chen" position="Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at Chinese University of Hong Kong (CUHK)"></Person></Col>
                 <Col><Person name="Ximing Liu" img="ximing.png" link="https://www.linkedin.com/in/ximing-liu-951543b8/?originalSubdomain=cn" position="Master Graduate, 2019; currently Market Researcher at Tencent"></Person></Col>
  
                 <Col><Person name="Dr. Sanju Menon" img="sanju.png" link="https://www.linkedin.com/in/sanjumenonp/" position="PhD Graduate, 2018; currently Data Scientist (Cognitive Automation) at UBS"></Person></Col>
                 <Col><Person name="Jingjing Liang" img="jingjing.png" position="Master Graduate, 2018; currently taking a break"></Person></Col>
                 <Col><Person name="Tian Yang" img="tianyang.png" link="https://www.asc.upenn.edu/people/graduate-student/tian-yang" position="Master Graduate, 2017; currently doctoral candidate at University of Pennsylvania"></Person></Col>
 
-                <Col><Person name="Gulizar Haciyakupoglu" img="gulizar.png" link="https://www.rsis.edu.sg/profile/gulizar-haciyakupoglu/"  position="PhD Graduate, 2016; currently Research Fellow at Nanyang Technological University "></Person></Col>
+                <Col><Person name="Dr. Gulizar Haciyakupoglu" img="gulizar.png" link="https://www.rsis.edu.sg/profile/gulizar-haciyakupoglu/"  position="PhD Graduate, 2016; currently Research Fellow at Nanyang Technological University "></Person></Col>
                 <Col><Person name="Lize Zhang" img="lize.png" position="Master Graduate, 2016; currently Founder of Peach Says "></Person></Col>
                 <Col><Person name="Dr. Simon Perrault" img="simon.png" link="https://istd.sutd.edu.sg/people/faculty/simon-perrault#biography" position="Postdoc Researcher, 2014-2015; currently Assistant Professor, Singapore University of Science and Technology"></Person></Col>
  
