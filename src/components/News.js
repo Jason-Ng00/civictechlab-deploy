@@ -58,7 +58,7 @@ export default class News extends React.Component {
                 <ToggleButton className="cultural-publics-news cultural-publics-button" value={4} active>Cultural Public</ToggleButton>
                 <ToggleButton className="youth-engagement-news youth-engagement-button" value={5} active>Youth Engagemnet</ToggleButton>
             </ToggleButtonGroup>
-    
+            
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="18 July 2021" subtags={["events", "India", "China", "Singapore", "Japan"]} title="IAMCR’s CPT co-organized the 1st CNM books week with CCA">
             <p>
             With the help of Dr. Jack Linchuan Qiu, the CPT section of IAMCR co-organized, along with Chinese 
