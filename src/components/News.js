@@ -55,10 +55,10 @@ export default class News extends React.Component {
                 <ToggleButton className="civic-tech-news civic-tech-button" value={1} active>Civic Tech</ToggleButton>
                 <ToggleButton className="citizen-science-news citizen-science-button" value={2} active>Citizen Science</ToggleButton>
                 <ToggleButton className="online-deliberation-news online-deliberation-button" value={3} active>Online Deliberation</ToggleButton>
-                <ToggleButton className="cultural-publics-news cultural-publics-button" value={4} active>Cultural Public</ToggleButton>
+                <ToggleButton className="cultural-publics-news cultural-publics-button" value={4} active>Cultural Publics</ToggleButton>
                 <ToggleButton className="youth-engagement-news youth-engagement-button" value={5} active>Youth Engagemnet</ToggleButton>
             </ToggleButtonGroup>
-            
+
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="18 July 2021" subtags={["events", "India", "China", "Singapore", "Japan"]} title="IAMCR’s CPT co-organized the 1st CNM books week with CCA">
             <p>
             With the help of Dr. Jack Linchuan Qiu, the CPT section of IAMCR co-organized, along with Chinese 
@@ -74,10 +74,8 @@ export default class News extends React.Component {
             <p>
             Dr. Weiyu Zhang delivered a presentation on “Traffic media: How algorithmic imaginations and practices change content production,” 
             during the 18th Chinese Internet Research Conference co-hosted by RMIT, Deakin Univ., QUT, USC Anneberg, and NUS. 
-            </p>
-                <video src="video/3D_Weiyu_Zhang (with opening).mp4" width="80%" height="auto" controls="controls"/>
-        
-                <img className="project-img" src="news/picture8.png" />
+            </p> <br />
+            <video src="video/3D_Weiyu_Zhang (with opening).mp4" width="80%" height="auto" controls="controls"/>
 
             </NewsComponent>
 
@@ -85,8 +83,9 @@ export default class News extends React.Component {
                 <p>
                 PhD student Xing Zhang made a presentation on “Multiple Discourses of Gene Editing on Social Media: 
                 A Case Study of Chinese Gene-Edited Human Babies,” during the 18th Chinese Internet Research Conference 
-                co-hosted by RMIT, Deakin Univ., QUT, USC Anneberg, and NUS. [video]
+                co-hosted by RMIT, Deakin Univ., QUT, USC Anneberg, and NUS. 
                 </p>
+                <video src="video/CIRC 2021_Xing(with opening).mp4" width="80%" height="auto" controls="controls"/>
                 <img className="project-img" src="news/picture6.png" />            
             </NewsComponent>
 
@@ -127,7 +126,7 @@ export default class News extends React.Component {
                     covered in local media: <a href="https://www.todayonline.com/singapore/ips-post-ge2020-forum-older-voters-catch-digital-use-parties-missed-crucial-online-signals">
                     TodayOnline ,</a> <a href="https://www.channelnewsasia.com/news/singapore/ge2020-swing-voters-pap-opposition-party-ips-survey-13230088">
                     Channel News Asia ,
-                </a> <a href="https://mothership.sg/2020/10/swing-voters-ge2020/">Mothership ,</a> <a href="https://mp.weixin.qq.com/s/DSOOUADKhytd5c6ZfHTwHQ">Zaobao WeChat.</a>
+                </a> <a href="https://mothership.sg/2020/10/swing-voters-ge2020/">Mothership ,</a> <a href="https://mp.weixin.qq.com/s/DSOOUADKhytd5c6ZfHTwHQ">Zaobao WeChat.</a><br />
                 <img className="project-img" src="cultural-publics/picture3.png" />
             </NewsComponent>
 
@@ -147,9 +146,11 @@ export default class News extends React.Component {
                 <img className="project-img" src="news/picture5.png" />
             </NewsComponent>
 
-            <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="24 September 2019" subtags={["presentations", "China"]} title="Forum on Internet and Media Use in Singapore’s General Election 2020">
+            <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="24 September 2019" subtags={["presentations", "China"]} title="A series of 9 book talks on 'Fandom Publics in the Making'">
             <p>
-                    A series of 9 book talks on "Fandom Publics in the Making" were made in either English or Chinese at various universities. <br /><a href="https://nusu-my.sharepoint.com/:p:/r/personal/cnmzw_nus_edu_sg/_layouts/15/Doc.aspx?sourcedoc=%7BFF3B9FBE-0CDA-4B14-8A1D-D9D61FCFEEF6%7D&file=fandom%20publics%20in%20the%20making.ppt&action=edit&mobileredirect=true">【演讲课件】</a>
+                    A series of 9 book talks on "Fandom Publics in the Making" were made in either English or Chinese at various universities.
+                    <br /><a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/cultural publics/fandom publics in the making.ppt?d=wff3b9fbe0cda4b148a1dd9d61fcfeef6">[slides]</a>
+                    <a href="https://nusu-my.sharepoint.com/:p:/r/personal/cnmzw_nus_edu_sg/_layouts/15/Doc.aspx?sourcedoc=%7BFF3B9FBE-0CDA-4B14-8A1D-D9D61FCFEEF6%7D&file=fandom%20publics%20in%20the%20making.ppt&action=edit&mobileredirect=true">【演讲课件】</a>
                     <ul>
                         <li>City University of Hong Kong, March 31st, 2017</li>
                         <li>University of Virginia, March 21st, 2017</li>
