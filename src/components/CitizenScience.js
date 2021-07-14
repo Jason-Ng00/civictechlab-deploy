@@ -17,8 +17,7 @@ export default class CivicTech extends React.Component {
             <h1 className="title" style={{width:"100%"}}>Project - Citizen Science</h1>
 
             <h2 className="subtitle"></h2>
-            <h4>This research program focuses on enabling public participation in science and technology topics and 
-            facilitating the communication between experts and ordinary citizens. </h4>
+            <h4>This research program focuses on enabling public participation in science and technology topics.</h4>
             <img className="project-img" src="citizen-science/picture1.png" />
             <p>
             Science and Technology topics (e.g., pandemics, climate change, gene editing, artificial intelligence) 
@@ -44,7 +43,7 @@ export default class CivicTech extends React.Component {
                 <li><a href="https://www.researchgate.net/profile/Anfan-Chen">Dr. Anfan Chen</a> - Visiting PhD Student, Tsinghua University, 2019; currently PostDoc Researcher at Chinese University of Hong Kong (CUHK)</li>
                 <li>Kehan Yang - Research Assistant, Master Student, LKYSPP, NUS</li>
                 <li>Haodong Liu - Research Intern; currently Master graduate, City University of Hong Kong</li>
-
+                <li>Huazhi Qin - Research Intern, Master graduate, Georgetown University</li>
             </ul>
 
             <h2 className="subtitle">Publications</h2>
@@ -53,7 +52,6 @@ export default class CivicTech extends React.Component {
                     Zhang, W., Chua, G., See, C. (July 2021). <em>The Role of Social Media in China’s Lifeworld Environmentalism</em>,
                     paper presented at the 2021 Annual Conference of International Association
                     of Media and Communication Research, virtual due to Covid-19.
-                    [video]
                 </li>
                 <li>
                     Zhang, X., Chen, A., &amp; Zhang, W. (online first). <a href="https://doi.org/10.1177%2F0963662520987754">
@@ -75,12 +73,10 @@ export default class CivicTech extends React.Component {
             <h2 className="subtitle">Partner Institutions</h2>
             <p>
             This research was funded by International Universities Climate Alliance through the leadership of 
-            the Monash Climate Change Communication Research Hub and the Vaccine Confidence Fund by Facebook 
-            and Merck. 
+            the Monash Climate Change Communication Research Hub.
             </p>
 
             <img className="partner-img" src="citizen-science/picture2.png"></img>
-            <img className="partner-img" src="citizen-science/picture3.png"></img>
             <img className="partner-img" src="citizen-science/picture4.png"></img>
             <img className="partner-img" src="citizen-science/picture5.png"></img>
 

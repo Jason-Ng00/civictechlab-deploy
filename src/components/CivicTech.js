@@ -55,7 +55,7 @@ export default class CivicTech extends React.Component {
             <h2 className="subtitle">Publications</h2>
             <ol>
                 <li>
-                  Zhang, W. (2021, June). <a href="https://www.publicdeliberation.net/online-deliberation-and-civictech/">Online deliberation and #CivicTech. Deliberative Democracy Digest. </a>
+                  Zhang, W. (2021, June). <a href="https://www.publicdeliberation.net/online-deliberation-and-civictech/">Online deliberation and #CivicTech.</a> Deliberative Democracy Digest. 
                 </li>
                 <li>
                 Zhang, W., Lim, G., Wang, Z., & Perrault, S. (2020, October). <a href="https://cscwcivictechnologies.files.wordpress.com/2020/10/civictech_for_and_by_citizens.pdf"># CivicTech For And By Citizens: 
@@ -72,7 +72,7 @@ export default class CivicTech extends React.Component {
             expressed on this website are those of the authors and do not necessarily reflect the 
             views of the funder.
             </p>
-            
+
 
             <a href="https://ctic.nus.edu.sg/"><img className="partner-img" src="civic-tech/NUS CTIC.png"></img></a>
             <a href="https://research.nus.edu.sg/eai/"><img className="partner-img" src="civic-tech/NUS EAI.png"></img></a>
