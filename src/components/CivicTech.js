@@ -72,6 +72,7 @@ export default class CivicTech extends React.Component {
             expressed on this website are those of the authors and do not necessarily reflect the 
             views of the funder.
             </p>
+            
 
             <a href="https://ctic.nus.edu.sg/"><img className="partner-img" src="civic-tech/NUS CTIC.png"></img></a>
             <a href="https://research.nus.edu.sg/eai/"><img className="partner-img" src="civic-tech/NUS EAI.png"></img></a>
