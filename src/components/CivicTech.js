@@ -14,8 +14,8 @@ export default class CivicTech extends React.Component {
     return (
         <Container className="civic-tech">
         <Col xs={12} md={10} lg={8} className="civic-tech-width">
-            <h1 className="title">Project - Civic Tech</h1>
-            <a href="/civic-tech/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a>
+            <h1 className="title" style={{width:"100%"}}>Project - Civic Tech</h1>
+            {/* <a href="/civic-tech/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a> */}
             <h2 className="subtitle"></h2>
             <h4>This research program aims to examine and develop Civic Tech in Asian contexts.  </h4>
             <img className="project-img" src="civic-tech/picture1.png" />
@@ -51,6 +51,18 @@ export default class CivicTech extends React.Component {
                 <li><a href="https://www.linkedin.com/in/adhiraaj-anand">Adhiraaj Anand</a> - Research Assistant; currently Master Student, LKSPP, National University of Singapore</li>
                 <li>Areet Roychowdhury - Research Assistant; currently Undergraduate Student, Yale-NUS College</li>
             </ul>
+
+            <h2 className="subtitle">Publications</h2>
+            <ol>
+                <li>
+                  Zhang, W. (2021, June). <a href="https://www.publicdeliberation.net/online-deliberation-and-civictech/">Online deliberation and #CivicTech. Deliberative Democracy Digest. </a>
+                </li>
+                <li>
+                Zhang, W., Lim, G., Wang, Z., & Perrault, S. (2020, October). <a href="https://cscwcivictechnologies.files.wordpress.com/2020/10/civictech_for_and_by_citizens.pdf"># CivicTech For And By Citizens: 
+                A Review And A Meta-Evaluation</a>. In Proceedings of Annual CSCW conference Workshop Position Papers on Civic Technologies. Virtual.  
+                </li>
+
+            </ol>
         
             <h2 className="subtitle">Partner Institutions</h2>
             <p>
@@ -61,11 +73,11 @@ export default class CivicTech extends React.Component {
             views of the funder.
             </p>
 
-            <img className="partner-img" src="civic-tech/NUS CTIC.png"></img>
-            <img className="partner-img" src="civic-tech/NUS EAI.png"></img>
+            <a href="https://ctic.nus.edu.sg/"><img className="partner-img" src="civic-tech/NUS CTIC.png"></img></a>
+            <a href="https://research.nus.edu.sg/eai/"><img className="partner-img" src="civic-tech/NUS EAI.png"></img></a>
             <br />
-            <img className="partner-img" src="civic-tech/SUTD.png"></img>
-            <img className="partner-img" src="civic-tech/PCIJ.png"></img>
+            <a href="https://www.sutd.edu.sg/"><img className="partner-img" src="civic-tech/SUTD.png"></img></a>
+
 
 
 

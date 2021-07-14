@@ -86,7 +86,6 @@ export default class News extends React.Component {
                 co-hosted by RMIT, Deakin Univ., QUT, USC Anneberg, and NUS. 
                 </p>
                 <video src="video/CIRC 2021_Xing(with opening).mp4" width="80%" height="auto" controls="controls"/>
-                <img className="project-img" src="news/picture6.png" />            
             </NewsComponent>
 
             <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["op-ed", "Singapore", "poland", "brazil"]} date="9 June 2021" title="Op-ed on “Online deliberation is civic tech”">
@@ -114,6 +113,7 @@ export default class News extends React.Component {
             </NewsComponent>
             
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" subtags={["presentations", "singapore"]}date="28 October 2020" title="IPS forum on Internet and Media Use in Singapore’s General Election 2020">
+                <p>
                 <a
                     href="https://lkyspp.nus.edu.sg/ips/news/details/ips-online-forum-on-internet-and-media-use-in-general-election-2020"
                 >
@@ -126,7 +126,8 @@ export default class News extends React.Component {
                     covered in local media: <a href="https://www.todayonline.com/singapore/ips-post-ge2020-forum-older-voters-catch-digital-use-parties-missed-crucial-online-signals">
                     TodayOnline ,</a> <a href="https://www.channelnewsasia.com/news/singapore/ge2020-swing-voters-pap-opposition-party-ips-survey-13230088">
                     Channel News Asia ,
-                </a> <a href="https://mothership.sg/2020/10/swing-voters-ge2020/">Mothership ,</a> <a href="https://mp.weixin.qq.com/s/DSOOUADKhytd5c6ZfHTwHQ">Zaobao WeChat.</a><br />
+                </a> <a href="https://mothership.sg/2020/10/swing-voters-ge2020/">Mothership ,</a> <a href="https://mp.weixin.qq.com/s/DSOOUADKhytd5c6ZfHTwHQ">Zaobao WeChat.</a>
+                </p>
                 <img className="project-img" src="cultural-publics/picture3.png" />
             </NewsComponent>
 
@@ -150,7 +151,7 @@ export default class News extends React.Component {
             <p>
                     A series of 9 book talks on "Fandom Publics in the Making" were made in either English or Chinese at various universities.
                     <br /><a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/cultural publics/fandom publics in the making.ppt?d=wff3b9fbe0cda4b148a1dd9d61fcfeef6">[slides]</a>
-                    <a href="https://nusu-my.sharepoint.com/:p:/r/personal/cnmzw_nus_edu_sg/_layouts/15/Doc.aspx?sourcedoc=%7BFF3B9FBE-0CDA-4B14-8A1D-D9D61FCFEEF6%7D&file=fandom%20publics%20in%20the%20making.ppt&action=edit&mobileredirect=true">【演讲课件】</a>
+                    <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab%20website/cultural%20publics/%E6%BC%94%E8%AE%B2%E8%AF%BE%E4%BB%B6.ppt?d=w3be71faad4404ab6b7f37bc5c34ea6dd">【演讲课件】</a>
                     <ul>
                         <li>City University of Hong Kong, March 31st, 2017</li>
                         <li>University of Virginia, March 21st, 2017</li>
