@@ -76,9 +76,9 @@ export default class CivicTech extends React.Component {
             the Monash Climate Change Communication Research Hub.
             </p>
 
-            <img className="partner-img" src="citizen-science/picture2.png"></img>
-            <img className="partner-img" src="citizen-science/picture4.png"></img>
-            <img className="partner-img" src="citizen-science/picture5.png"></img>
+            <a href="https://www.universitiesforclimate.org/"><img className="partner-img" src="citizen-science/picture2.png"></img></a>
+            <a href="https://ci.uky.edu/ci/"><img className="partner-img" src="citizen-science/picture4.png"></img></a>
+            <a href="https://www.monash.edu/mcccrh"><img className="partner-img" src="citizen-science/picture5.png"></img></a>
 
 
 
