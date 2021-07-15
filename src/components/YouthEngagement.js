@@ -85,40 +85,16 @@ export default class YOuthEngagement extends React.Component {
             <h2 className="subtitle">Reports</h2>
             <ol className="youth-engagement-tools">
                 <li>
-                    <h3 className="h3title">YOUTH, ICTs AND POLITICAL ENGAGEMENT IN ASIA FINAL REPORT</h3>
+                    <h5 className="h3title">YOUTH, ICTs AND POLITICAL ENGAGEMENT IN ASIA FINAL REPORT</h5>
                     <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download</Button></a>
-                    <img className="project-img" src="youth-engagement/picture5.png" />
+                    {/* <img className="project-img" src="youth-engagement/picture5.png" /> */}
                 </li>
+                <br />
                 <li>
-                    <h3 className="h3title">COUNTRY BACKGROUND REPORT</h3>
+                    <h5 className="h3title">COUNTRY BACKGROUND REPORT</h5>
                     <a href="/youth-engagement/Country Background Report.doc" download><Button className="download-report">Download</Button></a>
-                    <img className="project-img" src="youth-engagement/picture6.png" />
+                    {/* <img className="project-img" src="youth-engagement/picture6.png" /> */}
                 </li>
-            </ol>
-
-            <h2 className="subtitle">Presentations</h2>
-            <ol className="youth-engagement-tools">
-                <li>
-                    Zhang, W. (2011).
-                    <em>
-                        Change, Youth, Failure, Excellence (<strong>keynote lecture</strong>)
-                    </em>
-                    , the 22<sup>nd</sup> International Youth Forum, Ministry of Gender
-                    Equality and Family and National Council of Youth Organizations in Korea,
-                    August 18<sup>th</sup>, 2011.
-                </li>
-                <li>
-                    Zhang, W. (2010). <em>Urban Youth, ICTs, and Civic Engagement in Asia</em>,
-                East Asia Institute, National University of Singapore, September 13    <sup>th</sup>, 2010.
-                </li>
-                <li>
-                Zhang, W. (2010).    <em>Youth Engagement and ICTs in Asia: A Comparative Approach</em>, The
-                    Joint Summer School by Chinese University of Communication, Chinese
-                    University of Hong Kong, University of Westminster and University of
-                    Pennsylvania, Chinese University of Communication, July 8<sup>th</sup>,
-                    2010.
-                </li>
-
             </ol>
 
             <h2 className="subtitle">Partner Institutions</h2>
@@ -130,17 +106,13 @@ export default class YOuthEngagement extends React.Component {
                 authors and do not necessarily reflect the views of the funder.
             </p>
 
-            <Row xs={1} sm={2} lg={4}>
-            <img className="partner-img" src="youth-engagement/universityOfSdyney.png"></img>
-            <img className="partner-img" src="youth-engagement/UniversityOfNottingham.png"></img>
-            <img className="partner-img" src="youth-engagement/universityOfChittagong.png"></img>
-            <img className="partner-img" src="youth-engagement/universityOfThePhillippines.png"></img>
-            </Row>
-
-            
-            <Row xs={1} sm={2} lg={4}>
-            <img className="partner-img" src="youth-engagement/Indian_Institute_of_Technology_Delhi_Logo.svg"></img>
-            </Row>
+            <a href="https://www.sydney.edu.au/"><img className="partner-img" src="youth-engagement/universityOfSdyney.png" style={{width:"250px"}}></img></a>
+            <a href="https://www.nottingham.edu.my/index.aspx"><img className="partner-img" src="youth-engagement/UniversityOfNottingham.png" style={{width:"250px"}}></img></a>
+            <a href="https://www.idrc.ca/en"><img className="partner-img" src="youth-engagement/IDRC.png" style={{width:"250px"}}></img></a>
+            <br/>
+            <a href="https://cu.ac.bd/"><img className="partner-img" src="youth-engagement/universityOfChittagong.png"></img></a>
+            <a href="https://up.edu.ph/"><img className="partner-img" src="youth-engagement/universityOfThePhillippines.png"></img> </a>
+            <a href="https://home.iitd.ac.in/"><img className="partner-img" src="youth-engagement/Indian_Institute_of_Technology_Delhi_Logo.svg"></img></a>
 
 
         </Col>
