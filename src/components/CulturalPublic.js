@@ -9,16 +9,16 @@ import * as Icon from 'react-bootstrap-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
 
-export default class CulturalPublic extends React.Component {
+export default class CulturalPublics extends React.Component {
   render() {
     return (
         <Container className="cultural-publics">
         <Col xs={12} md={10} lg={8} className="cultural-publics-width">
-            <h1 className="title">Project - Cultural Public</h1>
-            <a href="/cultural-publics/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a>
+            <h1 className="title" style={{width:"100%"}}>Project - Cultural Publics</h1>
+            {/* <a href="/cultural-publics/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a> */}
             <h2 className="subtitle"></h2>
             <h4>This research program focuses on cultural publics in the era of network society. </h4>
-            {/* <img className="project-img" src="/cultural-publics/picture1.png" style={{width:"50%"}}/> */}
+            <img className="project-img" src="/cultural-publics/picture1.png" style={{width:"50%"}}/>
             <p>
             The formation of publics has been re-written by the mediation of information and communication 
             technologies in the era of network society. Cultural publics originated from popular culture 
@@ -220,9 +220,9 @@ export default class CulturalPublic extends React.Component {
             reflect the views of the funder.
             </p>
 
-            <img className="partner-img" src="cultural-publics/IPS.png"></img>
-            <img className="partner-img" src="cultural-publics/UP.png"></img>
-            <img className="partner-img" src="cultural-publics/MU.png"></img>
+            <a href="https://lkyspp.nus.edu.sg/ips"><img className="partner-img" src="cultural-publics/IPS.png"></img></a>
+            <a href="https://www.upenn.edu/"><img className="partner-img" src="cultural-publics/UP.png"></img></a>
+            <a href="https://www.studyabroad.sg/murdoch-university-2/?gclid=CjwKCAjwlrqHBhByEiwAnLmYUH0SarDmuRHWL6MTLkCJzu0jbnyXtPG2fhV-zhaicdqB-qQNWDQ2WRoCJNIQAvD_BwE"><img className="partner-img" src="cultural-publics/MU.png"></img></a>
 
 
 

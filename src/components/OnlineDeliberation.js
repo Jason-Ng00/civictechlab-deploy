@@ -52,7 +52,7 @@ export default class OnlineDeliberation extends React.Component {
             </p>
             <img className="project-img" src={picture3}></img>
             <p>
-            <a href="/online-deliberation/Report-on-Preliminary-Findings.pdf">See more details in this Report on Preliminary Findings. </a>
+            <a href="online-deliberation/Report-on-Preliminary-Findings.pdf">See more details in this Report on Preliminary Findings. </a>
             </p>
 
             <h2 className="subtitle">Collaborators</h2>
@@ -64,9 +64,9 @@ export default class OnlineDeliberation extends React.Component {
                 <li><a href="https://www.linkedin.com/in/joeir/?originalSubdomain=sg">Joseph Matthias Goh</a> - Design Researcher; currently Platform Engineer at StashAway </li>
                 <li>Jeffrey Effendy- Design Researcher; currently Teaching assistant at National University of Singapore </li>
                 <li><a href="https://www.linkedin.com/in/samsontmr/">Samson Tan</a> - Data Scientist; currently PhD Candidate at Salesforce Research and National University of Singapore </li>
-                <li><a href="https://www.linkedin.com/in/sanjumenonp/">Sanju Menon</a> - Research Assistant, PhD student; currently Data Scientist (Cognitive Automation) at UBS </li>
+                <li><a href="https://www.linkedin.com/in/sanjumenonp/">Dr. Sanju Menon</a> - Research Assistant, PhD student; currently Data Scientist (Cognitive Automation) at UBS </li>
                 <li><a href="https://www.asc.upenn.edu/people/graduate-student/tian-yang">Tian Yang</a> - Research Assistant, Master student; currently doctoral candidate at University of Pennsylvania</li>
-                <li><a href="https://lkycic.sutd.edu.sg/people/researchers/wang-yang">Yang Wang</a> - Research Assistant</li>
+                <li><a href="https://lkycic.sutd.edu.sg/people/researchers/wang-yang">Dr. Yang Wang</a> - Research Assistant; currently Research Fellow, Singapore University of Technology and Design </li>
                 <li><a href="http://faculty.hitsz.edu.cn/maochengting">Dr. Chengting Mao </a> - Research Assistant; currently Assistant Professor, Harbin Institute of Technology (Shenzhen Campus) </li>
                 <li>Jingjing Liang - Research Assistant, Master student; currently taking a break </li>
                 <li>Yawen Li - Research Assistant</li>
@@ -275,7 +275,7 @@ export default class OnlineDeliberation extends React.Component {
                     <video src="video/Tutorial Video(with opening).mp4" width="80%" height="auto" controls="controls"/>
                 </li>
                 <li>
-                    <h3 className="h3title">Graph Editor</h3>
+                    <h3 className="h3title">Graph Editor Demo</h3>
                     <a href="/online-deliberation/Graph Editor Guide_website.pdf" download><Button className="download-report">Download</Button></a>
                     <img className="project-img" src={picture5}></img>
                 </li>
@@ -301,8 +301,8 @@ export default class OnlineDeliberation extends React.Component {
             </p>
 
             <a href="https://www.moe.gov.sg/"><img className="partner-img" src="online-deliberation/Ministry_of_Education_(Singapore)_logo.png"></img></a>
-            <a href="https://www.nus-hci.org/"><img className="partner-img" src="online-deliberation/NUS HCI LAB.png"></img></a> 
-            <a href="https://www.population.gov.sg/"><img className="partner-img" src="online-deliberation/NPTD.png" style={{width:"200px"}}></img></a><br />
+            <a href="https://www.nus-hci.org/"><img className="partner-img" src="online-deliberation/NUS HCI LAB.png"></img></a> <br />
+            <a href="https://www.population.gov.sg/"><img className="partner-img" src="online-deliberation/NPTD.png" style={{width:"200px"}}></img></a>
             <a href="https://lkyspp.nus.edu.sg/ips"><img className="partner-img" src="online-deliberation/IPS.png" style={{width:"200px"}}></img></a>
 
 

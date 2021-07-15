@@ -26,7 +26,7 @@ export default class NavBar extends React.Component {
                     <NavDropdown.Item as={Link} to="/projects/civic-tech">Civic Tech</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/projects/citizen-science">Citizen Science</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/projects/online-deliberation">Online Deliberation</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/projects/cultural-public">Cultural Public</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/projects/cultural-public">Cultural Publics</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/projects/youth-engagement">Youth Engagement</NavDropdown.Item>
                     {/* <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
