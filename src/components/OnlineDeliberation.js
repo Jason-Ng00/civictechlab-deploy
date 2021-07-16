@@ -90,7 +90,7 @@ export default class OnlineDeliberation extends React.Component {
                     Proceedings of the SIGCHI Conference Full Papers on Human Factors in
                     Computing Systems (CHI '21)
                 </em>
-                . ACM. [slides]
+                . ACM.
             </li>
             <li>
                 Zhang W. &amp; Davies T. &amp; Przybylska A., (2021).
@@ -105,14 +105,14 @@ export default class OnlineDeliberation extends React.Component {
                     Procedural Justice in Online Deliberation: Theoretical Explanations and
                     Empirical Findings
                 </a>
-                . <em>Journal of Deliberative Democracy, 17</em>(1), 105-117. [slides]
+                . <em>Journal of Deliberative Democracy, 17</em>(1), 105-117.
             </li>
             <li>
                 Yang T. &amp; Wang Y. &amp; Zhang W., (2021).
                 <a href="https://delibdemjournal.org/article/id/964/">
                     Effects of Knowledge and Reflection in Intrapersonal Deliberation
                 </a>
-                . <em>Journal of Deliberative Democracy, 17</em>(1), 134-148. [slides]
+                . <em>Journal of Deliberative Democracy, 17</em>(1), 134-148.
             </li>
             <li>
                 Chen, Z &amp; Zhang, W. (2020),
@@ -123,7 +123,6 @@ export default class OnlineDeliberation extends React.Component {
                     Online Deliberation
                 </a>
                 . <em>T</em><em>elematics &amp; Informatics, </em>52, Article 101417.
-                [slides]
             </li>
             <li>
                 Zhang, W., Xi, Y., &amp; Chen, A. (2020).
@@ -133,7 +132,7 @@ export default class OnlineDeliberation extends React.Component {
                     Why do replies appear? A multi-level event history analysis of online
                     policy discussions
                 </a>
-                . <em>New Media &amp; Society, 22</em> (8), 1484-1504. [slides]
+                . <em>New Media &amp; Society, 22</em> (8), 1484-1504.
             </li>
             <li>
                 Menon, S., Zhang, W. &amp; Perrault, S. (2020).
@@ -146,7 +145,7 @@ export default class OnlineDeliberation extends React.Component {
                     Proceedings of the SIGCHI Conference Full Papers on Human Factors in
                     Computing Systems (CHI ’20)
                 </em>
-                . ACM. [slides]
+                . ACM. 
             </li>
             <li>
                 Zhang, W. &amp; Yang, T. (2020).
@@ -154,7 +153,7 @@ export default class OnlineDeliberation extends React.Component {
                     The interaction between perceived procedural fairness and perceived
                     disagreement in deliberation
                 </a>
-                .<em> Acta Politica, 55</em>, 199–220. [slides]
+                .<em> Acta Politica, 55</em>, 199–220.
             </li>
             <li>
                 Perrault, S. &amp; Zhang, W. (2019).
@@ -168,7 +167,7 @@ export default class OnlineDeliberation extends React.Component {
                     Proceedings of the SIGCHI Conference Full Papers on Human Factors in
                     Computing Systems (CHI '19).
                 </em>
-                ACM. [slides]
+                ACM.
             </li>
             <li>
                 Zhang, W., &amp; Soon, C (2017).
@@ -188,7 +187,7 @@ export default class OnlineDeliberation extends React.Component {
                 >
                     Perceived procedural fairness in deliberation: Predictors and effects
                 </a>
-                .<em> Communication Research</em>. 42(3), 345-364. [slides]
+                .<em> Communication Research</em>. 42(3), 345-364.
             </li>
             <li>
                 Zhang, W. (2015).    <u>The disenfranchised and eDeliberation: Beyond access</u>. In Coleman,
@@ -233,7 +232,7 @@ export default class OnlineDeliberation extends React.Component {
                 >
                     Citizen Deliberation
                 </a>
-                .<strong> </strong><em>Communication Theory, 24</em>(2), 124-145. [slides]
+                .<strong> </strong><em>Communication Theory, 24</em>(2), 124-145.
             </li>
             <li>
                 Chang, L., Jacobson, T., &amp; Zhang, W. (2013).
@@ -242,7 +241,7 @@ export default class OnlineDeliberation extends React.Component {
                     Government’s Smoking Policies
                 </a>
                 <em>. Journal of Communication, 63</em>
-                (6), 1153-1174. [slides]
+                (6), 1153-1174.
             </li>
             <li>
                 Zhang, W., Cao, X., &amp; Trah, M. N. (2013).
@@ -252,7 +251,7 @@ export default class OnlineDeliberation extends React.Component {
                     The structural features and the deliberative quality of online
                     discussions
                 </a>
-                . <em>Telematics &amp; Informatics, 30</em>(2), 74-86. [slides]
+                . <em>Telematics &amp; Informatics, 30</em>(2), 74-86.
             </li>
             <li>
                 Zhang, W. (2010).
@@ -263,7 +262,6 @@ export default class OnlineDeliberation extends React.Component {
                     actor-network analysis
                 </a>
                 . <em>Information, Communication &amp; Society, 13</em>(7), 1019-1039.
-               = [slides]
             </li>
             
             </ol>

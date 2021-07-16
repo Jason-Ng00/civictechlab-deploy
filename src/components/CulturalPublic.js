@@ -64,7 +64,7 @@ export default class CulturalPublics extends React.Component {
                         The expression of cultural identities in Hong Kong’s Anti-Extradition
                         Law Amendment Bill Movement: A semantic network analysis of tweets
                     </a>
-                    . <em>Social Science Computer Review. </em>[video]<em></em>
+                    . <em>Social Science Computer Review. </em><a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab%20website/multimedia%20files/videos/Edited%20videos_Manjiang/The%20expression%20of%20cultural%20identities%20in%20Anti-ELABM%20(with%20opening).mp4">[video]</a>
                 </li>
                 <li>
                     Zhang, W., Chen, Z., &amp; Xi, Y. (2021). <a href="https://doi.org/10.1080/17544750.2020.1830422">
@@ -81,7 +81,7 @@ export default class CulturalPublics extends React.Component {
                         China and India.
                     </a>
                     <em>Annals of the International Communication Association, 44</em>
-                    (1), 34-49. [video]
+                    (1), 34-49.
                 </li>
                 <li>
                     Zhang, L. &amp; Zhang, W. (2018). <a

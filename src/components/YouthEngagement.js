@@ -14,8 +14,8 @@ export default class YOuthEngagement extends React.Component {
     return (
         <Container className="youth-engagement">
         <Col xs={12} md={10} lg={8} className="youth-engagement-width">
-            <h1 className="title">Project - Youth Engagement</h1>
-            <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download</Button></a>
+            <h1 className="title" style={{width:"100%"}}>Project - Youth Engagement</h1>
+            {/* <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download</Button></a> */}
             <h2 className="subtitle"></h2>
             <h4>This research program focuses on understanding the relationship between civic engagement of youth and Information Communication Technologies (ICTs).</h4>
             <img className="project-img" src="youth-engagement/picture1.png" />
@@ -35,6 +35,7 @@ export default class YOuthEngagement extends React.Component {
             Research (IAMCR 2012)</i>. The project was re-invented and continued through an NUS-University of 
             Sydney Partnership Fund during 2019-2021. 
             </p>
+            <p><a href="/youth-engagement/final_tech_report.pdf" download>See more details in this Final Technical Report.</a></p>
 
 
             <h2 className="subtitle">Collaborators</h2>
@@ -105,10 +106,10 @@ export default class YOuthEngagement extends React.Component {
                 findings and conclusions or recommendations expressed on this website are those of the 
                 authors and do not necessarily reflect the views of the funder.
             </p>
-
+            
+            <a href="https://www.idrc.ca/en"><img className="partner-img" src="youth-engagement/IDRC.png" style={{width:"250px"}}></img></a>
             <a href="https://www.sydney.edu.au/"><img className="partner-img" src="youth-engagement/universityOfSdyney.png" style={{width:"250px"}}></img></a>
             <a href="https://www.nottingham.edu.my/index.aspx"><img className="partner-img" src="youth-engagement/UniversityOfNottingham.png" style={{width:"250px"}}></img></a>
-            <a href="https://www.idrc.ca/en"><img className="partner-img" src="youth-engagement/IDRC.png" style={{width:"250px"}}></img></a>
             <br/>
             <a href="https://cu.ac.bd/"><img className="partner-img" src="youth-engagement/universityOfChittagong.png"></img></a>
             <a href="https://up.edu.ph/"><img className="partner-img" src="youth-engagement/universityOfThePhillippines.png"></img> </a>

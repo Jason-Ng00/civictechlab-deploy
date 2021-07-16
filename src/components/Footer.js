@@ -28,9 +28,14 @@ export default class Footer extends React.Component {
                 </Col>
                 <Col xs={4} md={3} lg={3} className="footer-column">
                     <h3>Find Us</h3>
-                    <p>11 Computing Drive, Room 03-24. 
+                    <p>
+                        11 Computing Drive, Room 03-24. 
                         National University of Singapore, 
-                        Singapore, 117416 </p>
+                        Singapore, 117416 
+                    </p>
+                    <p>
+                        Email: info@civictechlab.org
+                    </p>
                 </Col>
                 {/* <Col xs={4} md={3} lg={2} className="footer-column">
                     <h3>Recent Activity</h3>

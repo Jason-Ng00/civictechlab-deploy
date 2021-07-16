@@ -100,6 +100,16 @@ export default class News extends React.Component {
                 <img className="project-img" src="civic-tech/picture2.png" />            
             </NewsComponent>
 
+            
+            <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="27 May 2021" subtags={["presentations", "China", "Hong Kong"]} title="Presentation on “Cultural Identities in Hong Kong”">
+            <p>
+            PhD student Yipeng Xi made a presentation on “Nested Cultural Identities in Hong Kong’s Anti-Extradition 
+            Law Amendment Bill Movement: A Semantic Network Analysis,” during the 71st Annual International Communication Association Conference. 
+            </p> <br />
+            <video src="video/The expression of cultural identities in Anti-ELABM (with opening).mp4" width="80%" height="auto" controls="controls"/>
+
+            </NewsComponent>
+
             <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["presentations", "Singapore"]} date="12 May 2021" title="Presentation on “The history of Civic Tech in Singapore” ">
                 <p>
                 Dr. Weiyu Zhang accepted the invitation from FASS, NUS’s Singapore Research Nexus 
