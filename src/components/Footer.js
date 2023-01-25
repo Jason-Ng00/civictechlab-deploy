@@ -22,11 +22,11 @@ export default class Footer extends React.Component {
             </Row>
              */}
             <Row className="footer-content" xs={1} md={2} lg={4}>
-                <Col xs={4} md={3} lg={3} className="footer-column">
+                <Row xs={1} md={2} lg={4} className="d-md-none footer-row">
                     <h3>CivicTech Lab</h3>
                     <p>CivicTech Lab at National University of Singapore is a research hub led by Dr. Weiyu Zhang. We are a team of social scientists, computer scientists, and digital cultural analysts.  </p>
-                </Col>
-                <Col xs={4} md={3} lg={3} className="footer-column">
+                </Row>
+                <Row xs={1} md={2} lg={4} className="d-md-none footer-row">
                     <h3>Find Us</h3>
                     <p>
                         11 Computing Drive, Room 03-24. 
@@ -34,7 +34,22 @@ export default class Footer extends React.Component {
                         Singapore, 117416 
                     </p>
                     <p>
-                        Email: info@civictechlab.org
+                        Email: civictechlabnus@gmail.com
+                    </p>
+                </Row>
+                <Col xs={4} md={3} lg={3} className="d-none d-md-block footer-column">
+                    <h3>CivicTech Lab</h3>
+                    <p>CivicTech Lab at National University of Singapore is a research hub led by Dr. Weiyu Zhang. We are a team of social scientists, computer scientists, and digital cultural analysts.  </p>
+                </Col>
+                <Col xs={4} md={3} lg={3} className="d-none d-md-block footer-column">
+                    <h3>Find Us</h3>
+                    <p>
+                        11 Computing Drive, Room 03-24. 
+                        National University of Singapore, 
+                        Singapore, 117416 
+                    </p>
+                    <p>
+                        Email: civictechlabnus@gmail.com
                     </p>
                 </Col>
                 {/* <Col xs={4} md={3} lg={2} className="footer-column">
@@ -46,7 +61,7 @@ export default class Footer extends React.Component {
                     <p>Project Meeting and Drafting</p>
                     <p>9 Jun, 2021</p>
                 </Col> */}
-                <Col xs={0} md={2} lg={2} className="d-none d-md-block footer-column">
+                <Col xs={0} md={3} lg={3} className="d-none d-md-block footer-column">
                     <h3>Quick Links</h3>
                     <ListGroup>
                         <ListGroup.Item action as={Link} to="/home">Home</ListGroup.Item>

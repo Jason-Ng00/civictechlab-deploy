@@ -107,7 +107,7 @@ export default class Home extends React.Component {
                     <Card.Body>
                     <Card.Title>OUR HISTORY</Card.Title>
                     <Card.Text>
-                    The CivicTech Lab (formerly the Media Psychology Lab) was established in 2008 by Dr. Weiyu Zhang, as a central location for research projects on civic engagement and information communication technology conducted by the team. In the past years, the lab has produced research outputs on youth engagement, online deliberation, internet politics, citizen science, and civic technology, with a focus on the Asian region. 
+                    The CivicTech Lab (formerly the Media Psychology Lab) was established in 2008 by Dr. Weiyu Zhang, as a central location for research projects on civic engagement and information communication technology conducted by the team.
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>

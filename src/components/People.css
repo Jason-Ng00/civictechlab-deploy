@@ -13,6 +13,7 @@
 
 .person h4 {
     height:50px;
+    margin: 5px;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -34,7 +35,7 @@
     width: 240px;
     overflow:hidden;
     object-fit:cover;
-    object-position: 5% 20%;
+    object-position: 10% 15%;
 }
 
 .person p {

@@ -59,6 +59,190 @@ export default class News extends React.Component {
                 <ToggleButton className="youth-engagement-news youth-engagement-button" value={5} active>Youth Engagemnet</ToggleButton>
             </ToggleButtonGroup>
 
+            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "presentations"]} date="July 28, 2022" title="Invited Talk for A*Star">
+                <p>
+                Dr. Weiyu Zhang joined a panel “From mini publics to maxi publics” at the D³ Congress (Online Congress on Digital Democracy) to present the Online Deliberation Singapore project. 
+                Along with experts from Czech Republic, Finland, and Germany, the panel discusses how to scale high-quality deliberation with digital means. Dr Zhang made the following 
+                suggestions for the digital turn of the Deliberation Wave: 
+
+                <ul>
+                    <li>
+                    Random sampling of population supplemented by purposive sampling of minority groups
+                    </li>
+                    <li>
+                    Leveraging existing technology (e.g., Zoom)
+                    </li>
+                    <li>
+                    Integrating outcomes of online deliberation into institution of policy making
+                    </li>
+                </ul>
+                </p>
+                <img className="project-img" src="news/picture19.png" />            
+            </NewsComponent>
+
+            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "presentations"]} date="Oct 26, 2022" title="Keynote Speech for the Asia Foundation">
+                <p>
+                In this keynote address for <a href='https://www.linkedin.com/company/the-asia-foundation/'>The Asia Foundation</a> online event, <b>At the Intersection: Smart <a href='https://www.linkedin.com/feed/hashtag/?keywords=inclusive&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6999192501983084544'>#Inclusive</a> Cities in Southeast Asia</b>, 
+                Dr Weiyu Zhang used the evolving <a href='https://www.linkedin.com/feed/hashtag/?keywords=tracetogether&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6999192501983084544'>#tracetogether</a> technology 
+                to illustrate the need to involve citizens (non-experts) in <a href='https://www.linkedin.com/feed/hashtag/?keywords=smartcity&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6999192501983084544'>#smartcity</a> initiatives. Dr Zhang made the following three major points:                
+
+                <ol>
+                    <li>
+                    Smart cities are not smart if they are not inclusive. This is not just a moral judgment. It is a practical strategy.
+                    </li>
+                    <li>
+                    Being inclusive means including people starting from the problem formulation stage. The majority and minority groups have different views on what the problem is.
+                    </li>
+                    <li>
+                    Let us use the two-step <a href='https://www.linkedin.com/feed/hashtag/?keywords=deliberation&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6999192501983084544'>#deliberation</a> method to be inclusive. Local CSOs such as the Penang Women’s Development Corporation are already doing the first step!
+                    </li>
+                </ol>
+                
+                Watch the 8-minute video here: 
+                <br/>
+                <a href='https://lnkd.in/gG_8Dcqf'>https://lnkd.in/gG_8Dcqf </a>
+
+                </p>
+                <img className="project-img" src="news/picture18.png" />            
+            
+            </NewsComponent>
+
+            
+            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "presentations"]} date="July 28, 2022" title="Invited Talk for A*Star">
+                <p>
+                Dr. Weiyu Zhang delivered an invited talk on “Civic Tech: An interdisciplinary field” to the HTPO colleagues at A*Star. In this talk, Dr Zhang shared how technology can serve civic purposes. 
+                A vivid discussion with A*Star scholars about how social sciences can contribute to our understanding of technology was held.
+                </p>
+                <img className="project-img" style={{height:'500px', width:'auto'}} src="news/picture17.png" />            
+            </NewsComponent>
+
+            <NewsComponent className="citizen-science-news" class="citizen-science-news-content" tag="Citizen Science" subtags={["civic-tech", "events", "presentations"]} date="July 20, 2022" title="CivicTech Lab @ic2s2 2022">
+                <p>
+                The CivicTech Lab, in particular the team of Ms Huazhi Qin, Dr. Subhayan Mukerjee and 
+                Dr. Weiyu Zhang, presented at the 2022 International Conference on Computational Social 
+                Science (<a href='https://twitter.com/hashtag/ic2s2?src=hashtag_click'>ic2s2</a>) The study analyzes Facebook public pages’ posts on Covid-19 vaccines and 
+                found that topics from topic modeling can be seen as sub-issues in Networked Agenda Setting; 
+                approach vs withdrawal emotion may be better to understand sentiments’ impact on liking a post.
+                </p>
+                <img className="project-img" src="news/picture16.png" />         
+
+            </NewsComponent>
+
+            <NewsComponent className="citizen-science-news" class="citizen-science-news-content" tag="Citizen Science" subtags={["civic-tech", "gov-tech", "events", "presentations"]} date="May 26-30, 2022" title="CivicTech Lab @ICA Annual Conference 2022">
+                <p>
+                The CivicTec Lab has a fruitful year at the annual conference of International Communication Association, 
+                to be held in Paris, France. We have FIVE papers accepted for presentation.
+                <ol>
+                    <li>Zhang, W., Wang, R., & Liu, H. (May 2022). The Influence of Moral Framing on Likes: Examining Covid Vaccination Posts by American Facebook Public Pages. <a href='https://www.youtube.com/watch?v=NKLvntYxA4w'>[video]</a></li>
+                    <li>Zhang, W & Cheng, Y. (May 2022). Are Moral Foundations Universal? Theoretical Lessons from Developing m the Chinese Moral Foundation Dictionary <a href='https://www.youtube.com/watch?v=fih7aodH_pM'>[video]</a></li>
+                    <li>Chen, Z. (May 2022). From the Trivial to the Tremendous: How Communication Technologies Shape the Organizing Mechanism of Online Activism. (top student paper)</li>
+                    <li>Xi, Y. (May 2022). Adaptive Agency: The Satire Genre and the Origin of Satirical Thoughts in Contemporary China. (top student paper)</li>
+                    <li>Xi, Y. (May 2022). The Historical Review of Satire Making and Sharing in China.</li>
+                </ol>
+                <b>Congratulations to ABD Mr. Yipeng Xi for his top paper awarded by the Language and Social Interaction Division. This award is one of the highest ranked papers of the division!</b>
+                </p>
+                <br/>
+                <img className="project-img" style={{width:'250px'}} src="news/picture14.png" />            
+                <br/>
+                <p>
+                <b>Congratulations to ABD Mr Zhuo Chen, and his top student paper awarded by the Communciation and Technology Division. This is his second time to win a top student paper award. His first award was from the Political Communication Division of ICA in 2019.</b>
+                </p>
+                <br/>
+                <img className="project-img" src="news/picture15.png" />         
+
+            </NewsComponent>
+
+            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["civic-tech", "events", "FOSS", "community"]} date="April 8-9, 2022" title="CivicTech Lab @FOSSASIA Summit 2022">
+                <p>
+                The CivicTech Lab was honored to be the community partner for Free and Open Source Software Asia (FOSSASIA) Summit 2022! Our lab director Prof. Weiyu Zhang delivered a talk on “Civic Tech: An Asian Perspective” 
+                and organized two interdisciplinary and cross-ectoral panels.
+                <br />
+                <br />
+                <b>Panel one: “When Open Science Meets Open Source”</b>
+                </p>
+                <img className="project-img" src="news/picture12.png" />            
+                <p>
+                The development of open science aligns with open source software and hardware in both 
+                philosophy and practice. By keeping open, engineers can share codes and scientists can share 
+                research design. There is a layer of ethical concern in keeping our works open – so that 
+                transparency is ensured. However, there are costs and challenges in keeping open. Open codes 
+                and data need storage spaces. Human labor is necessary to keep the open information in order. 
+                How to keep codes secure and how to protect research subjects’ privacy in such open practices 
+                need to be carefully thought through and painstakingly implemented. This panel brough both 
+                scientists and FOSS practitioners into one virtual room, exchanging experience and inspiring 
+                each other to address common concerns. The panelists discussed the principles and values 
+                behind open science, as well as the barriers and challenges associated with open science.
+                <br />
+                Watch the panel recording HERE ! (starting from 2:40:00)
+                <br />
+                <br />
+                <b>Panel two “Open Ethics”</b>
+                </p>
+                <img className="project-img" src="news/picture13.png" />            
+                <p>
+                Transformative technology offers tremendous opportunities but raises ethical concerns and the 
+                potential for harm. Technologies such as AI have been found to be potentially harming fairness, 
+                accountability, transparency, ethics, and safety. Robotics introduces ethical challenges to the 
+                very basic definition of being human. Moreover, the organizations around developing such 
+                technologies need to build up their own ethics. Commercial entities have to take their social 
+                responsibility to develop tech4good. Government agencies have to make policies and regulations 
+                that confine the harm. Users have to reach the consensus about ethical usage of technology.
+                <br />
+                The FOSS community has a unique position in this global debate over tech ethics. Our panelists 
+                talked about the ethical challenges such as data privacy and sovereignty related to Cloud 
+                services, the root of ethical challenges being no clear agreement among people, and 
+                weaponization of robotics. The open nature of FOSS requires licensing and monitoring of the 
+                usage of the FOSS technology.   
+                <br />
+                Watch the panel recording <a href='https://www.youtube.com/watch?v=75dAcDSRrC8'>HERE</a> ! (starting from 06:20:00)
+                </p>
+            </NewsComponent>
+
+            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "civic education", "AI education", "AI ethics"]} date="21 February 2022 and 1 May 2022" title="Presentation on “Civic AI Education”">
+                <p>
+                Dr. Weiyu Zhang delivered a presentation on “Civic AI Education: Embedding Civic Values in Learning Computer 
+                Science” at the “NUS Symposium on Artificial Intelligence Education”. AI Education has focused on advancing 
+                technologies but lagged in embedding civic values in the learning. Civic AI Education highlights the procedure 
+                leading to the AI outcomes, by centering on a deliberation framework that emphasizes the participation of diverse 
+                citizens who embrace civic values in the entire process of AI design, implementation and monitoring. The topics 
+                covered in Civic AI Education include, but are not limited to, data privacy, data security, transparent AI, 
+                explainable AI, AI fairness (or biases), and AI auditing.
+                <br />
+                <br />
+                Watch the talk <a href='https://www.youtube.com/watch?v=8dK3dUKA4sg'>HERE</a>!
+                <br />
+                <br />
+                A provocation paper based on the talk was accepted and presented at the 4th Annual Symposium on HCI Education 
+                (EduCHI’22), April 30–May 1, 2022. Read the full paper <a href='https://educhi2022.hcilivingcurriculum.org/wp-content/uploads/2022/04/educhi2022-final12.pdf'>HERE</a> !
+                </p>
+                <img className="project-img" src="news/picture11.png" />            
+            </NewsComponent>
+
+            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "Japan", "Singapore", "Asia"]} date="28 January 2022" title="HKBU Publlic lecture on “Civic Tech: An Asian Perspective”">
+                <p>
+                Dr. Weiyu Zhang delivered an invited public lecture on “Civic Tech: An Asian Perspective”, as a wrap up of 
+                the two-year seed grant on Civic Tech in Asia. The public lecture covers our review of the field based on 
+                ACM library literature and present two Asian case studies on Japan and Singapore.
+                <br />
+                <br />
+                Watch the lecture <a href='https://www.youtube.com/watch?v=gXPuubrOtUo&feature=youtu.be'>HERE</a>!
+                </p>
+                <img className="project-img" src="news/picture10.png" />            
+            </NewsComponent>
+
+            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "China", "Japan", "Singapore", "Indonesia", "Asia", "FOSS"]} date="17 November 2021" title="The 1st ICT4Good Asia workshop">
+                <p>
+                The inaugural ICT4Good/Asia Workshop, jointly hosted by the Civic Tech Lab, the Department of Communications 
+                and New Media, and the Singapore Research Nexus at the National University of Singapore, was held on November 17, 
+                2021. This workshop brings together researchers and practitioners pursuing ICT4Good in Asia to discuss the interdisciplinary 
+                and cross-sectoral development of the field. The morning panels feature academic topics such as educating computer science 
+                students about the civic, educating Singaporean youth about the technological, studying civic tech in human-computer interaction, 
+                and developing civic tech in Japan and Taiwan. The afternoon panels gather ICT4Good practitioners in one virtual room, discussing 
+                the various potentials of ICT4Good as a social movement, an industry, and a governance paradigm.
+                </p>
+                <img className="project-img" src="news/picture9.png" />            
+            </NewsComponent>
+
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="18 July 2021" subtags={["events", "India", "China", "Singapore", "Japan"]} title="IAMCR’s CPT co-organized the 1st CNM books week with CCA">
             <p>
             With the help of Dr. Jack Linchuan Qiu, the CPT section of IAMCR co-organized, along with Chinese 

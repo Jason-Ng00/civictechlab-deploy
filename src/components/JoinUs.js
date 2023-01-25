@@ -53,7 +53,7 @@ export default class JoinUs extends React.Component {
             <p>Ongoing</p>
 
             <h5 className="join-us-subtitle">Application Procedure</h5>
-            <p>Email <a href="mailto:info@civictechlab.org">info@civictechlab.org</a> with the position title as the subject.  </p>
+            <p>Email <a href="mailto:civictechlabnus@gmail.com">civictechlabnus@gmail.com</a> with the position title as the subject.  </p>
             </div>
 
 
@@ -92,7 +92,7 @@ export default class JoinUs extends React.Component {
             <p>Ongoing</p>
 
             <h5 className="join-us-subtitle">Application Procedure</h5>
-            <p>Email <a href="mailto:info@civictechlab.org">info@civictechlab.org</a> with the position title as the subject.  </p>
+            <p>Email <a href="mailto:civictechlabnus@gmail.com">civictechlabnus@gmail.com</a> with the position title as the subject.  </p>
             </div>
 
 

@@ -44,6 +44,7 @@ export default class CivicTech extends React.Component {
                 <li>Kehan Yang - Research Assistant, Master Student, LKYSPP, NUS</li>
                 <li>Haodong Liu - Research Intern; currently Master graduate, City University of Hong Kong</li>
                 <li>Huazhi Qin - Research Intern, Master graduate, Georgetown University</li>
+                <li>Cheng Yixiang - Research Intern, Master Graduate, Chinese University of Hong Kong</li>
             </ul>
 
             <h2 className="subtitle">Publications</h2>
@@ -54,10 +55,10 @@ export default class CivicTech extends React.Component {
                     of Media and Communication Research, virtual due to Covid-19.
                 </li>
                 <li>
-                    Zhang, X., Chen, A., &amp; Zhang, W. (online first). <a href="https://doi.org/10.1177%2F0963662520987754">
+                    Zhang, X., Chen, A., &amp; Zhang, W. (2021). <a href="https://doi.org/10.1177%2F0963662520987754">
                         Before and after the Chinese gene-edited human babies: Multiple
                         discourses of gene editing on social media.
-                    </a> <em>Public Understanding of Science.</em>
+                    </a> <em>Public Understanding of Science, 30(5) : 570-587. </em>
                     <video src="video/CIRC 2021_Xing(with opening).mp4" width="80%" height="auto" controls="controls"/>
                 </li>
                 <li>

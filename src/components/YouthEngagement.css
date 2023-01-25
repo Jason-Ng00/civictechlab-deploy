@@ -29,17 +29,19 @@ p {
 }
 
 .download-report {
-    width:20%;
+    width:100px;
 }
 
 .title, .h3title{
     width:80%;
     display:inline-block;
+    vertical-align: text-top;
 }
 
 .online-deliberation-tools li{
     margin:30px;
     font-size: 25px;
+    vertical-align: text-top;
 }
 
 

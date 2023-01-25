@@ -50,16 +50,32 @@ export default class CivicTech extends React.Component {
                 <li>Ng Chin Seang - Research Assistant; currently undergrad student, Mathematics, NUS</li>
                 <li><a href="https://www.linkedin.com/in/adhiraaj-anand">Adhiraaj Anand</a> - Research Assistant; currently Master Student, LKSPP, National University of Singapore</li>
                 <li>Areet Roychowdhury - Research Assistant; currently Undergraduate Student, Yale-NUS College</li>
+                <li>Chuyao Wang - Research Intern; currently Master Student, Hong Kong University of Science and Technology</li>
+
             </ul>
 
             <h2 className="subtitle">Publications</h2>
             <ol>
                 <li>
-                  Zhang, W. (2021, June). <a href="https://www.publicdeliberation.net/online-deliberation-and-civictech/">Online deliberation and #CivicTech.</a> Deliberative Democracy Digest. 
+                Zhang, W., Lim, G., Perrault, S., & Wang, C. (2022). A Review of Research on Civic Technology: Definitions, Theories, History and Insights. arXiv preprint 
+                arXiv:2204.11461. <a href='https://arxiv.org/ftp/arxiv/papers/2204/2204.11461.pdf'>[paper]</a> <a href='https://www.youtube.com/watch?v=EwYdL3_wvwg'>[video]</a> 
                 </li>
                 <li>
-                Zhang, W., Lim, G., Wang, Z., & Perrault, S. (2020, October). <a href="https://cscwcivictechnologies.files.wordpress.com/2020/10/civictech_for_and_by_citizens.pdf"># CivicTech For And By Citizens: 
-                A Review And A Meta-Evaluation</a>. In Proceedings of Annual CSCW conference Workshop Position Papers on Civic Technologies. Virtual.  
+                Zhang, W. (2022). Civic AI Education: Developing a Deliberative Framework. In 4th Annual Symposium on HCI Education (EduCHI’22), April 30–May 1, 2022, New Orleans, LA, 
+                USA. <a href='https://educhi2022.hcilivingcurriculum.org/wp-content/uploads/2022/04/educhi2022-final12.pdf'>[paper]</a> < a href='https://www.youtube.com/watch?v=8dK3dUKA4sg'>[video]</a>
+                </li>
+                <li>
+                Zhang, W. (2021, June). <a href='https://www.publicdeliberation.net/online-deliberation-and-civictech/'>Online deliberation and #CivicTech</a>. Deliberative Democracy Digest.
+                </li>
+                <li>
+                Zhang, W., Lim, G., Wang, Z., & Perrault, S. (2020, October). <a href='https://cscwcivictechnologies.files.wordpress.com/2020/10/civictech_for_and_by_citizens.pdf'># CivicTech For And By Citizens: A Review And A Meta-Evaluation</a>. In Proceedings of Annual CSCW conference Workshop Position Papers on Civic Technologies. Virtual.
+                </li>
+                <li>
+                Zhang, W., Wang, R., & Liu, H. (2023). Moral Expression, Sources, and Frames: Examining COVID-19 Vaccination Posts by Facebook Public Pages. Computers in Human Behavior.       
+                </li>
+                <li>
+                ii.	Zhang, W., Mukerjee, S., & Qin, H. (2022). Topics and sentiments influence likes: A study of Facebook public pages’ posts about COVID-19 vaccination. 
+                <em>Cyberpsychology, Behavior, & Social Networking</em>. <a href='https://doi.org/10.1089/cyber.2022.0063'>https://doi.org/10.1089/cyber.2022.0063</a> 
                 </li>
 
             </ol>

@@ -41,6 +41,8 @@ export default class YOuthEngagement extends React.Component {
             <h2 className="subtitle">Collaborators</h2>
             <ul>
                 <li><a href="https://www.sydney.edu.au/arts/about/our-people/academic-staff/murray-print.html">Dr. Murray Print</a> - Co-PI; Professor, Faculty of Arts and Social Sciences, University of Sydney</li>
+                <li><a href="https://www.sydney.edu.au/arts/about/our-people/academic-staff/yeowtong-chia.html">Dr. Yeow-Tong Chia </a> - Collaborator; Senior Lecturer, Faculty of Arts and Social Sciences, University of Sydney</li>
+                <li><a href="https://www.sydney.edu.au/arts/about/our-people/academic-staff/jiaying-neoh.html">Dr. Jia Ying Neo</a> - Collaborator; Lecturer, Faculty of Arts and Social Sciences, University of Sydney</li>
                 <li><a href="https://www.nottingham.edu.my/Social-Sciences/People/joanne.lim">Dr. Joanne Lim Bee Yin</a> - Co-PI; Associate Professor, University of Nottingham, Malaysia</li>
                 <li><a href="https://www.linkedin.com/in/mohammad-sahid-ullah-6a948912/?originalSubdomain=bd">Dr. Sahid Ullah</a> - Co-PI; Professor, University of Chittagong, Bangladesh</li>
                 <li><a href="https://www.linkedin.com/in/clarissa-david-5b8a851/?originalSubdomain=ph">Dr. Clarissa David</a> - Co-PI; Professor, University of the Philippines </li>
@@ -50,6 +52,15 @@ export default class YOuthEngagement extends React.Component {
 
             <h2 className="subtitle">Publications</h2>
             <ol>
+                <li>
+                Zhang, W., Chen, Z., Chia, Y-T., & Neoh, J. Y. (2022). Rethinking civic education in the 
+                digital era: How media, school, and young people negotiate the meaning of citizenship. 
+                International Communication Gazette, 84 (4), 287-305. 
+                </li>
+                <li>
+                Zhang, W. (2022). Political disengagement among youth: A comparison between 2011 and 2020. 
+                Frontiers in Psychology. <a href='https://doi-org/10.1177%2F17480485221094101'>https://doi.org/10.3389/fpsyg.2022.809432</a>
+                </li>
                 <li>
                     Zhang, W. (November, 2020).
                     <em>
@@ -65,8 +76,8 @@ export default class YOuthEngagement extends React.Component {
                     249-252.<strong> </strong><strong></strong>
                 </li>
                 <li>
-                    Zhang, W. (2013).
-                    <a href="https://www.weiyuzhang.net/uploads/2/2/2/7/222747/weiyu.pdf">
+                    Zhang, W. 
+                    (2013). <a href="https://www.weiyuzhang.net/uploads/2/2/2/7/222747/weiyu.pdf">
                         Redefining youth activism through digital technology in Singapore
                     </a>
                 . <em>International Communication Gazette, 75</em>(3), 253-270. [slides]  
@@ -107,14 +118,16 @@ export default class YOuthEngagement extends React.Component {
                 authors and do not necessarily reflect the views of the funder.
             </p>
             
+            <Row sm={2} md={2} lg={3}>
             <a href="https://www.idrc.ca/en"><img className="partner-img" src="youth-engagement/IDRC.png" style={{width:"250px"}}></img></a>
             <a href="https://www.sydney.edu.au/"><img className="partner-img" src="youth-engagement/universityOfSdyney.png" style={{width:"250px"}}></img></a>
-            <a href="https://www.nottingham.edu.my/index.aspx"><img className="partner-img" src="youth-engagement/UniversityOfNottingham.png" style={{width:"250px"}}></img></a>
             <br/>
-            <a href="https://cu.ac.bd/"><img className="partner-img" src="youth-engagement/universityOfChittagong.png"></img></a>
+            <a href="https://www.nottingham.edu.my/index.aspx"><img className="partner-img" src="youth-engagement/UniversityOfNottingham.png" style={{width:"250px"}}></img></a>
+            <a href="https://cu.ac.bd/"><img className="partner-img" src="youth-engagement/universityOfChittagong.png" style={{width:"100px"}}></img></a>
+            <br/>
             <a href="https://up.edu.ph/"><img className="partner-img" src="youth-engagement/universityOfThePhillippines.png"></img> </a>
             <a href="https://home.iitd.ac.in/"><img className="partner-img" src="youth-engagement/Indian_Institute_of_Technology_Delhi_Logo.svg"></img></a>
-
+            </Row>
 
         </Col>
         </Container>
