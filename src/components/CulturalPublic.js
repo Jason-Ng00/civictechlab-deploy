@@ -8,17 +8,21 @@ import * as Icon from 'react-bootstrap-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
 export default class CulturalPublics extends React.Component {
   render() {
     return (
         <Container className="cultural-publics">
+        <Helmet>
+            <title>Cultural Publics | CivicTech Lab</title>
+        </Helmet>
         <Col xs={12} md={10} lg={8} className="cultural-publics-width">
             <h1 className="title" style={{width:"100%"}}>Project - Cultural Publics</h1>
             {/* <a href="/cultural-publics/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a> */}
             <h2 className="subtitle"></h2>
             <h4>This research program focuses on cultural publics in the era of network society. </h4>
-            <img className="project-img" src="cultural-publics/picture1.png" style={{width:"50%"}}/>
+            <img className="project-img" src="/cultural-publics/picture1.png" style={{width:"50%"}}/>
             <p>
             The formation of publics has been re-written by the mediation of information and communication 
             technologies in the era of network society. Cultural publics originated from popular culture 
@@ -62,7 +66,7 @@ export default class CulturalPublics extends React.Component {
                 <li>
                 c.	Cultural publics (change to) - Xi, Y., Chen, A., & Zhang, W. (2022). The expression of cultural identities in Hong Kong’s 
                 Anti-Extradition Law Amendment Bill Movement: A semantic network analysis of tweets. Social Science 
-                Computer Review, 40(6), 1436–1455. <a href='video/The expression of cultural identities in Anti-ELABM (with opening).mp4'>[video]</a>
+                Computer Review, 40(6), 1436–1455. <a href='/video/The expression of cultural identities in Anti-ELABM (with opening).mp4'>[video]</a>
                 </li>
                 <li>
                     Zhang, W., Chen, Z., &amp; Xi, Y. (2021). <a href="https://doi.org/10.1080/17544750.2020.1830422">
@@ -70,7 +74,7 @@ export default class CulturalPublics extends React.Component {
                         content production
                     </a>
                     . <em>Chinese Journal of Communication, 14(</em>1). 58-74. 
-                    <video src="video/3D_Weiyu_Zhang (with opening).mp4" width="80%" height="auto" controls="controls"/>
+                    <video src="/video/3D_Weiyu_Zhang (with opening).mp4" width="80%" height="auto" controls="controls"/>
 
                 </li>
                 <li>
@@ -218,9 +222,9 @@ export default class CulturalPublics extends React.Component {
             reflect the views of the funder.
             </p>
 
-            <a href="https://lkyspp.nus.edu.sg/ips"><img className="partner-img" src="cultural-publics/IPS.png"></img></a>
-            <a href="https://www.upenn.edu/"><img className="partner-img" src="cultural-publics/UP.png"></img></a>
-            <a href="https://www.studyabroad.sg/murdoch-university-2/?gclid=CjwKCAjwlrqHBhByEiwAnLmYUH0SarDmuRHWL6MTLkCJzu0jbnyXtPG2fhV-zhaicdqB-qQNWDQ2WRoCJNIQAvD_BwE"><img className="partner-img" src="cultural-publics/MU.png"></img></a>
+            <a href="https://lkyspp.nus.edu.sg/ips"><img className="partner-img" src="/cultural-publics/IPS.png"></img></a>
+            <a href="https://www.upenn.edu/"><img className="partner-img" src="/cultural-publics/UP.png"></img></a>
+            <a href="https://www.studyabroad.sg/murdoch-university-2/?gclid=CjwKCAjwlrqHBhByEiwAnLmYUH0SarDmuRHWL6MTLkCJzu0jbnyXtPG2fhV-zhaicdqB-qQNWDQ2WRoCJNIQAvD_BwE"><img className="partner-img" src="/cultural-publics/MU.png"></img></a>
 
 
 

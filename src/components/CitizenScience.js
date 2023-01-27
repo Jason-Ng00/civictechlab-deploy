@@ -8,17 +8,21 @@ import * as Icon from 'react-bootstrap-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
 export default class CivicTech extends React.Component {
   render() {
     return (
         <Container className="citizen-science">
+        <Helmet>
+            <title>Citizen Science | CivicTech Lab</title>
+        </Helmet>
         <Col xs={12} md={10} lg={8} className="citizen-science-width">
             <h1 className="title" style={{width:"100%"}}>Project - Citizen Science</h1>
 
             <h2 className="subtitle"></h2>
             <h4>This research program focuses on enabling public participation in science and technology topics.</h4>
-            <img className="project-img" src="citizen-science/picture1.png" />
+            <img className="project-img" src="/citizen-science/picture1.png" />
             <p>
             Science and Technology topics (e.g., pandemics, climate change, gene editing, artificial intelligence) 
             have increasingly becoming the focus of public discussion. Public understanding of science and technology 
@@ -59,7 +63,7 @@ export default class CivicTech extends React.Component {
                         Before and after the Chinese gene-edited human babies: Multiple
                         discourses of gene editing on social media.
                     </a> <em>Public Understanding of Science, 30(5) : 570-587. </em>
-                    <video src="video/CIRC 2021_Xing(with opening).mp4" width="80%" height="auto" controls="controls"/>
+                    <video src="/video/CIRC 2021_Xing(with opening).mp4" width="80%" height="auto" controls="controls"/>
                 </li>
                 <li>
                     Liang, J., Liu, X., Zhang, W. (2019) <a href="https://doi.org/10.1177%2F0963662519876782">
@@ -77,9 +81,9 @@ export default class CivicTech extends React.Component {
             the Monash Climate Change Communication Research Hub.
             </p>
 
-            <a href="https://www.universitiesforclimate.org/"><img className="partner-img" src="citizen-science/picture2.png"></img></a>
-            <a href="https://ci.uky.edu/ci/"><img className="partner-img" src="citizen-science/picture4.png"></img></a>
-            <a href="https://www.monash.edu/mcccrh"><img className="partner-img" src="citizen-science/picture5.png"></img></a>
+            <a href="https://www.universitiesforclimate.org/"><img className="partner-img" src="/citizen-science/picture2.png"></img></a>
+            <a href="https://ci.uky.edu/ci/"><img className="partner-img" src="/citizen-science/picture4.png"></img></a>
+            <a href="https://www.monash.edu/mcccrh"><img className="partner-img" src="/citizen-science/picture5.png"></img></a>
 
 
 

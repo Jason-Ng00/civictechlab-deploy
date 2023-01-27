@@ -8,17 +8,21 @@ import * as Icon from 'react-bootstrap-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
-export default class YOuthEngagement extends React.Component {
+export default class YouthEngagement extends React.Component {
   render() {
     return (
         <Container className="youth-engagement">
+        <Helmet>
+            <title>Youth Engagement | CivicTech Lab</title>
+        </Helmet>
         <Col xs={12} md={10} lg={8} className="youth-engagement-width">
             <h1 className="title" style={{width:"100%"}}>Project - Youth Engagement</h1>
             {/* <a href="/youth-engagement/final_tech_report.pdf" download><Button className="download-report">Download</Button></a> */}
             <h2 className="subtitle"></h2>
             <h4>This research program focuses on understanding the relationship between civic engagement of youth and Information Communication Technologies (ICTs).</h4>
-            <img className="project-img" src="youth-engagement/picture1.png" />
+            <img className="project-img" src="/youth-engagement/picture1.png" />
 
             <p>
             The “Youth, ICTs, and Political Engagement in Asia” project spanned over two years 
@@ -119,14 +123,14 @@ export default class YOuthEngagement extends React.Component {
             </p>
             
             <Row sm={2} md={2} lg={3}>
-            <a href="https://www.idrc.ca/en"><img className="partner-img" src="youth-engagement/IDRC.png" style={{width:"250px"}}></img></a>
-            <a href="https://www.sydney.edu.au/"><img className="partner-img" src="youth-engagement/universityOfSdyney.png" style={{width:"250px"}}></img></a>
+            <a href="https://www.idrc.ca/en"><img className="partner-img" src="/youth-engagement/IDRC.png" style={{width:"250px"}}></img></a>
+            <a href="https://www.sydney.edu.au/"><img className="partner-img" src="/youth-engagement/universityOfSdyney.png" style={{width:"250px"}}></img></a>
             <br/>
-            <a href="https://www.nottingham.edu.my/index.aspx"><img className="partner-img" src="youth-engagement/UniversityOfNottingham.png" style={{width:"250px"}}></img></a>
-            <a href="https://cu.ac.bd/"><img className="partner-img" src="youth-engagement/universityOfChittagong.png" style={{width:"100px"}}></img></a>
+            <a href="https://www.nottingham.edu.my/index.aspx"><img className="partner-img" src="/youth-engagement/UniversityOfNottingham.png" style={{width:"250px"}}></img></a>
+            <a href="https://cu.ac.bd/"><img className="partner-img" src="/youth-engagement/universityOfChittagong.png" style={{width:"100px"}}></img></a>
             <br/>
-            <a href="https://up.edu.ph/"><img className="partner-img" src="youth-engagement/universityOfThePhillippines.png"></img> </a>
-            <a href="https://home.iitd.ac.in/"><img className="partner-img" src="youth-engagement/Indian_Institute_of_Technology_Delhi_Logo.svg"></img></a>
+            <a href="https://up.edu.ph/"><img className="partner-img" src="/youth-engagement/universityOfThePhillippines.png"></img> </a>
+            <a href="https://home.iitd.ac.in/"><img className="partner-img" src="/youth-engagement/Indian_Institute_of_Technology_Delhi_Logo.svg"></img></a>
             </Row>
 
         </Col>

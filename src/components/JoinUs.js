@@ -8,11 +8,15 @@ import * as Icon from 'react-bootstrap-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
 export default class JoinUs extends React.Component {
   render() {
     return (
         <Container className="join-us">
+        <Helmet>
+            <title>Join Us | CivicTech Lab</title>
+        </Helmet>
         <Col xs={12} md={10} lg={8} className="join-us-width">
             <h1 className="join-us-title">Welcome to Join Us!</h1>
 

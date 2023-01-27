@@ -16,11 +16,16 @@ import picture7 from "../assets/online-deliberation/7.png"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
 export default class OnlineDeliberation extends React.Component {
   render() {
     return (
         <Container className="online-deliberation">
+        <Helmet>
+            <title>Online Deliberation | CivicTech Lab</title>
+        </Helmet>
+
         <Col xs={12} md={10} lg={8} className="online-deliberation-width">
             <h1 className="title" style={{width:"100%"}}>Project - Online Deliberation</h1>
             {/* <a href="/online-deliberation/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a> */}
@@ -52,7 +57,7 @@ export default class OnlineDeliberation extends React.Component {
             </p>
             <img className="project-img" src={picture3}></img>
             <p>
-            <a href="online-deliberation/Report-on-Preliminary-Findings.pdf">See more details in this Report on Preliminary Findings. </a>
+            <a href="/online-deliberation/Report-on-Preliminary-Findings.pdf">See more details in this Report on Preliminary Findings. </a>
             </p>
 
             <h2 className="subtitle">Collaborators</h2>
@@ -270,7 +275,7 @@ export default class OnlineDeliberation extends React.Component {
             <ol className="online-deliberation-tools">
                 <li>
                     <h3 className="h3title">Platform Demo</h3>
-                    <video src="video/Tutorial Video(with opening).mp4" width="80%" height="auto" controls="controls"/>
+                    <video src="/video/Tutorial Video(with opening).mp4" width="80%" height="auto" controls="controls"/>
                 </li>
                 <li>
                     <h3 className="h3title">Graph Editor Demo</h3>
@@ -298,10 +303,10 @@ export default class OnlineDeliberation extends React.Component {
                 authors and do not necessarily reflect the views of the funder.
             </p>
 
-            <a href="https://www.moe.gov.sg/"><img className="partner-img" src="online-deliberation/Ministry_of_Education_(Singapore)_logo.png"></img></a>
-            <a href="https://www.nus-hci.org/"><img className="partner-img" src="online-deliberation/NUS HCI LAB.png"></img></a> <br />
-            <a href="https://www.population.gov.sg/"><img className="partner-img" src="online-deliberation/NPTD.png" style={{width:"200px"}}></img></a>
-            <a href="https://lkyspp.nus.edu.sg/ips"><img className="partner-img" src="online-deliberation/IPS.png" style={{width:"200px"}}></img></a>
+            <a href="https://www.moe.gov.sg/"><img className="partner-img" src="/online-deliberation/Ministry_of_Education_(Singapore)_logo.png"></img></a>
+            <a href="https://www.nus-hci.org/"><img className="partner-img" src="/online-deliberation/NUS HCI LAB.png"></img></a> <br />
+            <a href="https://www.population.gov.sg/"><img className="partner-img" src="/online-deliberation/NPTD.png" style={{width:"200px"}}></img></a>
+            <a href="https://lkyspp.nus.edu.sg/ips"><img className="partner-img" src="/online-deliberation/IPS.png" style={{width:"200px"}}></img></a>
 
 
 

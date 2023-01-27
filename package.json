@@ -1,6 +1,6 @@
 {
   "name": "civictechlab-deploy",
-  "homepage": "http://Jason-Ng00.github.io/civictechlab-deploy",
+  "homepage": "https://www.civictechlab.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,7 @@
     "react-bootstrap": "^1.6.1",
     "react-bootstrap-icons": "^1.5.0",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
     "react-responsive-carousel": "^3.2.18",
     "react-router-dom": "^5.2.0",
     "react-scripts": "1.1.4",

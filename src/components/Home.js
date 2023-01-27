@@ -11,12 +11,17 @@ import { Carousel } from 'react-responsive-carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
 import SideNav from "./SideNav.js"
+import { Helmet } from 'react-helmet';
 
 export default class Home extends React.Component {
   render() {
     return (
         <Container className="home">
-        <SideNav>Sidebar</SideNav>
+        <Helmet>
+            <title>Home | CivicTech Lab</title>
+            <meta name="description" content="CivicTech Lab at National University of Singapore is a research hub led by Dr. Weiyu Zhang. We are a team of social scientists, computer scientists, and digital cultural analysts. " />
+        </Helmet>
+        {/* <SideNav>Sidebar</SideNav> */}
 
         <Col xs={12} md={12} lg={12} className="home-width">
         {/* <Row className="carousel-container">
@@ -42,7 +47,7 @@ export default class Home extends React.Component {
                 <source src="home/Animation with music.mp4" type="video/mp4" />
                 <img className="logoGif" src="home/animated logo.gif" alt="animation" />
             </video> */}
-            <img className="logoGif" src="home/animated logo.gif" alt="animation" />
+            <img className="logoGif" src="/home/animated logo.gif" alt="animation" />
 
 
             {/* <Row className="home-content-intro">
@@ -57,7 +62,7 @@ export default class Home extends React.Component {
             <Row sm={1} md={2} lg={2}>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src="home/vector-vision-word-lettering.jpg" />
+                    <Card.Img variant="top" src="/home/vector-vision-word-lettering.jpg" />
                     <Card.Body>
                     <Card.Title>OUR VISION</Card.Title>
                     <Card.Text>
@@ -71,7 +76,7 @@ export default class Home extends React.Component {
                 </Col>
                 <Col>
                 <Card>
-                    <Card.Img variant="top" src="home/mission3.jpg" />
+                    <Card.Img variant="top" src="/home/mission3.jpg" />
                     <Card.Body>
                     <Card.Title>OUR MISSION</Card.Title>
                     <Card.Text>
@@ -88,7 +93,7 @@ export default class Home extends React.Component {
             <Row sm={1} md={2} lg={2}>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src="home/team.jpg" />
+                    <Card.Img variant="top" src="/home/team.jpg" />
                     <Card.Body>
                     <Card.Title>OUR TEAM</Card.Title>
                     <Card.Text>
@@ -103,7 +108,7 @@ export default class Home extends React.Component {
             </Col>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src="home/history.jpg" />
+                    <Card.Img variant="top" src="/home/history.jpg" />
                     <Card.Body>
                     <Card.Title>OUR HISTORY</Card.Title>
                     <Card.Text>

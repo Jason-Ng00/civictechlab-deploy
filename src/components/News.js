@@ -9,6 +9,7 @@ import * as Icon from 'react-bootstrap-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
 export default class News extends React.Component {
 
@@ -48,6 +49,10 @@ export default class News extends React.Component {
         const {value} = this.state;
     return (
         <Container className="news">
+        <Helmet>
+            <title>News | CivicTech Lab</title>
+        </Helmet>
+
         <Col xs={12} md={10} lg={8} className="news-width">
             <h1 className="news-title">What's New</h1>
 
@@ -59,7 +64,7 @@ export default class News extends React.Component {
                 <ToggleButton className="youth-engagement-news youth-engagement-button" value={5} active>Youth Engagemnet</ToggleButton>
             </ToggleButtonGroup>
 
-            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "presentations"]} date="July 28, 2022" title="Invited Talk for A*Star">
+            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "presentations"]} date="November 23, 2022" title="Invited Talk for A*Star">
                 <p>
                 Dr. Weiyu Zhang joined a panel “From mini publics to maxi publics” at the D³ Congress (Online Congress on Digital Democracy) to present the Online Deliberation Singapore project. 
                 Along with experts from Czech Republic, Finland, and Germany, the panel discusses how to scale high-quality deliberation with digital means. Dr Zhang made the following 
@@ -77,7 +82,7 @@ export default class News extends React.Component {
                     </li>
                 </ul>
                 </p>
-                <img className="project-img" src="news/picture19.png" />            
+                <img className="project-img" src="/news/picture19.png" />            
             </NewsComponent>
 
             <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "presentations"]} date="Oct 26, 2022" title="Keynote Speech for the Asia Foundation">
@@ -103,7 +108,7 @@ export default class News extends React.Component {
                 <a href='https://lnkd.in/gG_8Dcqf'>https://lnkd.in/gG_8Dcqf </a>
 
                 </p>
-                <img className="project-img" src="news/picture18.png" />            
+                <img className="project-img" src="/news/picture18.png" />            
             
             </NewsComponent>
 
@@ -113,7 +118,7 @@ export default class News extends React.Component {
                 Dr. Weiyu Zhang delivered an invited talk on “Civic Tech: An interdisciplinary field” to the HTPO colleagues at A*Star. In this talk, Dr Zhang shared how technology can serve civic purposes. 
                 A vivid discussion with A*Star scholars about how social sciences can contribute to our understanding of technology was held.
                 </p>
-                <img className="project-img" style={{height:'500px', width:'auto'}} src="news/picture17.png" />            
+                <img className="project-img" style={{height:'500px', width:'auto'}} src="/news/picture17.png" />            
             </NewsComponent>
 
             <NewsComponent className="citizen-science-news" class="citizen-science-news-content" tag="Citizen Science" subtags={["civic-tech", "events", "presentations"]} date="July 20, 2022" title="CivicTech Lab @ic2s2 2022">
@@ -124,7 +129,7 @@ export default class News extends React.Component {
                 found that topics from topic modeling can be seen as sub-issues in Networked Agenda Setting; 
                 approach vs withdrawal emotion may be better to understand sentiments’ impact on liking a post.
                 </p>
-                <img className="project-img" src="news/picture16.png" />         
+                <img className="project-img" src="/news/picture16.png" />         
 
             </NewsComponent>
 
@@ -142,13 +147,13 @@ export default class News extends React.Component {
                 <b>Congratulations to ABD Mr. Yipeng Xi for his top paper awarded by the Language and Social Interaction Division. This award is one of the highest ranked papers of the division!</b>
                 </p>
                 <br/>
-                <img className="project-img" style={{width:'250px'}} src="news/picture14.png" />            
+                <img className="project-img" style={{width:'250px'}} src="/news/picture14.png" />            
                 <br/>
                 <p>
                 <b>Congratulations to ABD Mr Zhuo Chen, and his top student paper awarded by the Communciation and Technology Division. This is his second time to win a top student paper award. His first award was from the Political Communication Division of ICA in 2019.</b>
                 </p>
                 <br/>
-                <img className="project-img" src="news/picture15.png" />         
+                <img className="project-img" src="/news/picture15.png" />         
 
             </NewsComponent>
 
@@ -160,7 +165,7 @@ export default class News extends React.Component {
                 <br />
                 <b>Panel one: “When Open Science Meets Open Source”</b>
                 </p>
-                <img className="project-img" src="news/picture12.png" />            
+                <img className="project-img" src="/news/picture12.png" />            
                 <p>
                 The development of open science aligns with open source software and hardware in both 
                 philosophy and practice. By keeping open, engineers can share codes and scientists can share 
@@ -178,7 +183,7 @@ export default class News extends React.Component {
                 <br />
                 <b>Panel two “Open Ethics”</b>
                 </p>
-                <img className="project-img" src="news/picture13.png" />            
+                <img className="project-img" src="/news/picture13.png" />            
                 <p>
                 Transformative technology offers tremendous opportunities but raises ethical concerns and the 
                 potential for harm. Technologies such as AI have been found to be potentially harming fairness, 
@@ -215,7 +220,7 @@ export default class News extends React.Component {
                 A provocation paper based on the talk was accepted and presented at the 4th Annual Symposium on HCI Education 
                 (EduCHI’22), April 30–May 1, 2022. Read the full paper <a href='https://educhi2022.hcilivingcurriculum.org/wp-content/uploads/2022/04/educhi2022-final12.pdf'>HERE</a> !
                 </p>
-                <img className="project-img" src="news/picture11.png" />            
+                <img className="project-img" src="/news/picture11.png" />            
             </NewsComponent>
 
             <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "Japan", "Singapore", "Asia"]} date="28 January 2022" title="HKBU Publlic lecture on “Civic Tech: An Asian Perspective”">
@@ -227,7 +232,7 @@ export default class News extends React.Component {
                 <br />
                 Watch the lecture <a href='https://www.youtube.com/watch?v=gXPuubrOtUo&feature=youtu.be'>HERE</a>!
                 </p>
-                <img className="project-img" src="news/picture10.png" />            
+                <img className="project-img" src="/news/picture10.png" />            
             </NewsComponent>
 
             <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "China", "Japan", "Singapore", "Indonesia", "Asia", "FOSS"]} date="17 November 2021" title="The 1st ICT4Good Asia workshop">
@@ -240,7 +245,7 @@ export default class News extends React.Component {
                 and developing civic tech in Japan and Taiwan. The afternoon panels gather ICT4Good practitioners in one virtual room, discussing 
                 the various potentials of ICT4Good as a social movement, an industry, and a governance paradigm.
                 </p>
-                <img className="project-img" src="news/picture9.png" />            
+                <img className="project-img" src="/news/picture9.png" />            
             </NewsComponent>
 
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="18 July 2021" subtags={["events", "India", "China", "Singapore", "Japan"]} title="IAMCR’s CPT co-organized the 1st CNM books week with CCA">
@@ -251,7 +256,7 @@ export default class News extends React.Component {
             China (Jing Wang, 2019); Prototype Nation (Silvia Lindtner, 2020); and The Singapore Perspectives: 
             Politics (Natalie Pang and Shamil Zainuddin, 2021). All 7 talks’ e-posters can be accessed here:  <a href="https://www.dropbox.com/s/gnk8lqni6c8x2t5/Posters.pdf?dl=0">https://www.dropbox.com/s/gnk8lqni6c8x2t5/Posters.pdf?dl=0</a>
             </p>
-                <img className="project-img" src="news/picture7.png" />
+                <img className="project-img" src="/news/picture7.png" />
             </NewsComponent>
 
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="27 June 2021" subtags={["presentations", "China"]} title="Presentation on “Traffic media in China”">
@@ -338,7 +343,7 @@ export default class News extends React.Component {
 
             <NewsComponent className="youth-engagement-news" class="youth-engagement-news-content" tag="Youth Engagement" subtags={["workshop", "Singapore"]} date="5 February 2020" title="Workshop on “Civic learning in the social media era”">
                 <p>Scholars from Univ of Sydney and National Univ of Singapore co-presented a workshop on “Civic learning in the social media era” on 5 February, 2020.  </p>
-                <img className="project-img" src="news/picture5.png" />
+                <img className="project-img" src="/news/picture5.png" />
             </NewsComponent>
 
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics" date="24 September 2019" subtags={["presentations", "China"]} title="A series of 9 book talks on 'Fandom Publics in the Making'">
@@ -413,7 +418,7 @@ export default class News extends React.Component {
             processes and technologies” during the 2015 CHI in Seoul, South Korea. This was the first time when the social 
             scientists and computer scientists gathered in one room to tackle the challenge of online deliberation.
             </p>
-            <img className="project-img" src="news/picture4.png"></img>
+            <img className="project-img" src="/news/picture4.png"></img>
             </NewsComponent>
 
             <NewsComponent className="cultural-publics-news" class="cultural-publics-news-content" tag="Cultural Publics"  subtags={["presentations", "china"]} date="30 June 2014" title="Keynote speech on “celebrity activism on Weibo”">
@@ -433,7 +438,7 @@ export default class News extends React.Component {
                 Gender Equality and Family and National Council of Youth Organizations in South Korea. 
                 The talk is titled “Change, Youth, Failure, Excellence.”  <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/youth engagement/Change%2C Youth%2C Failure%2C Excellence.ppt?d=w357b922ba8d24c198fbf40bb543aa809">[slides]</a>
                 <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/youth engagement/A talk prepared for the 22nd International Youth Forum.doc?d=w7a02169826d244b781a751ca8fada929">[transcript]</a> </p>
-                <img className="project-img" src="news/picture2.png" />
+                <img className="project-img" src="/news/picture2.png" />
             </NewsComponent>
 
             <NewsComponent className="youth-engagement-news" class="youth-engagement-news-content" tag="Youth Engagement" subtags={["presentations", "Asia"]} date="8 July 2010" title="Presentation on “Youth Engagement and ICTs in Asia” ">
@@ -441,7 +446,7 @@ export default class News extends React.Component {
                 Chinese University of Hong Kong, University of Westminster and University of Pennsylvania, Chinese University of 
                 Communication. The talk is titled “Youth Engagement and ICTs in Asia: A Comparative Approach.” <a href="https://nusu-my.sharepoint.com/personal/cnmzw_nus_edu_sg/Documents/civictechlab website/youth engagement/CUC presentation.pptx?d=w69a02116c063402c92d238392373d1d4">[slides]</a>
                 </p>
-                <img className="project-img" src="news/picture1.png" />
+                <img className="project-img" src="/news/picture1.png" />
             </NewsComponent>
 
             <NewsComponent className="youth-engagement-news" class="youth-engagement-news-content" tag="Youth Engagement" subtags={["presentations", "Asia"]} date="24 June 2010" title="Panel on “Youth, ICTs and Political Engagement in Asia” ">
@@ -484,7 +489,7 @@ class NewsComponent extends React.Component {
         <div class="news-container">
             <img
                 className="news-container-bg"
-                src="news/690cafe534f955156ebd1ac6364dfff4.jpg"
+                src="/news/690cafe534f955156ebd1ac6364dfff4.jpg"
                 alt=""
             />
             <div className="news-content">

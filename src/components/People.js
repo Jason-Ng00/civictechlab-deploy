@@ -8,11 +8,15 @@ import * as Icon from 'react-bootstrap-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
 export default class People extends React.Component {
   render() {
     return (
         <Container className="people">
+        <Helmet>
+            <title>People | CivicTech Lab</title>
+        </Helmet>
         <Col xs={12} md={10} lg={10} className="people-width">
         <h1>Current Team</h1>
             <Row xs={1} sm={2} md={2} lg={3}>
@@ -69,7 +73,7 @@ function Person(props) {
         return (
             <div className="person">
               <a href={props.link}><h4>{props.name}</h4></a>
-              <img src={'./people/' + props.img} style={props.styles} />
+              <img src={'/people/' + props.img} style={props.styles} />
               <p>{props.position}</p>
               <div className="person-footer">
                   <small className="text-muted"><a href={props.link}>Website</a></small>
@@ -80,7 +84,7 @@ function Person(props) {
         return (
             <div className="person">
               <a href={props.link}><h4>{props.name}</h4></a>
-              <img src={'./people/' + props.img} style={props.styles}/>
+              <img src={'/people/' + props.img} style={props.styles}/>
               <p>{props.position}</p>
               <div className="person-footer">
                   <small className="text-muted"><a href={props.link}>Website not Available</a></small>

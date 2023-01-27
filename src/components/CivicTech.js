@@ -8,17 +8,21 @@ import * as Icon from 'react-bootstrap-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhoneAlt,faEnvelope, faCircle} from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
 export default class CivicTech extends React.Component {
   render() {
     return (
         <Container className="civic-tech">
+        <Helmet>
+            <title>Civic Tech | CivicTech Lab</title>
+        </Helmet>
         <Col xs={12} md={10} lg={8} className="civic-tech-width">
             <h1 className="title" style={{width:"100%"}}>Project - Civic Tech</h1>
             {/* <a href="/civic-tech/Report-on-Preliminary-Findings.pdf" download><Button className="download-report">Download</Button></a> */}
             <h2 className="subtitle"></h2>
             <h4>This research program aims to examine and develop Civic Tech in Asian contexts.  </h4>
-            <img className="project-img" src="civic-tech/picture1.png" />
+            <img className="project-img" src="/civic-tech/picture1.png" />
             <p>
             Civic Technology, or Civic Tech, refers to information and communication technologies (ICTs) that facilitate civic engagement.
              Government-centric Civic Tech refers to governments utilizing the technologies for service provision, citizen consultations, 
@@ -90,10 +94,10 @@ export default class CivicTech extends React.Component {
             </p>
 
 
-            <a href="https://ctic.nus.edu.sg/"><img className="partner-img" src="civic-tech/NUS CTIC.png"></img></a>
-            <a href="https://research.nus.edu.sg/eai/"><img className="partner-img" src="civic-tech/NUS EAI.png"></img></a>
+            <a href="https://ctic.nus.edu.sg/"><img className="partner-img" src="/civic-tech/NUS CTIC.png"></img></a>
+            <a href="https://research.nus.edu.sg/eai/"><img className="partner-img" src="/civic-tech/NUS EAI.png"></img></a>
             <br />
-            <a href="https://www.sutd.edu.sg/"><img className="partner-img" src="civic-tech/SUTD.png"></img></a>
+            <a href="https://www.sutd.edu.sg/"><img className="partner-img" src="/civic-tech/SUTD.png"></img></a>
 
 
 

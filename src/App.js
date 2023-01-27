@@ -18,7 +18,7 @@ import JoinUs from "./components/JoinUs.js"
 import News from "./components/News.js"
 import ScrollToTop from "./components/ScrollToTop.js"
 
-import { HashRouter, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 function ScrollRestoration() {
   const { pathname } = useLocation();
@@ -35,7 +35,7 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <div style={{height:"90px"}}></div>
-      <HashRouter basename={process.env.PUBLIC_URL} className = "content">
+      {/* <Router basename={process.env.PUBLIC_URL} className = "content"> */}
       <ScrollRestoration />
       <Switch>                
         <Route path='/home' component={Home}/>  
@@ -49,7 +49,7 @@ function App() {
         <Route path='/news' component={News}/>  
         <Route path='/' component={Home}/>            
       </Switch>
-      </HashRouter>
+      {/* </Router> */}
       <ScrollToTop />
       <Footer></Footer>
     </div>
