@@ -74,13 +74,6 @@ export default class CivicTech extends React.Component {
                 <li>
                 Zhang, W., Lim, G., Wang, Z., & Perrault, S. (2020, October). <a href='https://cscwcivictechnologies.files.wordpress.com/2020/10/civictech_for_and_by_citizens.pdf'># CivicTech For And By Citizens: A Review And A Meta-Evaluation</a>. In Proceedings of Annual CSCW conference Workshop Position Papers on Civic Technologies. Virtual.
                 </li>
-                <li>
-                Zhang, W., Wang, R., & Liu, H. (2023). Moral Expression, Sources, and Frames: Examining COVID-19 Vaccination Posts by Facebook Public Pages. Computers in Human Behavior.       
-                </li>
-                <li>
-                ii.	Zhang, W., Mukerjee, S., & Qin, H. (2022). Topics and sentiments influence likes: A study of Facebook public pages’ posts about COVID-19 vaccination. 
-                <em>Cyberpsychology, Behavior, & Social Networking</em>. <a href='https://doi.org/10.1089/cyber.2022.0063'>https://doi.org/10.1089/cyber.2022.0063</a> 
-                </li>
 
             </ol>
         

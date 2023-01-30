@@ -64,7 +64,7 @@ export default class CulturalPublics extends React.Component {
             <h2 className="subtitle">Publications</h2>
             <ol>
                 <li>
-                c.	Cultural publics (change to) - Xi, Y., Chen, A., & Zhang, W. (2022). The expression of cultural identities in Hong Kong’s 
+                Xi, Y., Chen, A., & Zhang, W. (2022). The expression of cultural identities in Hong Kong’s 
                 Anti-Extradition Law Amendment Bill Movement: A semantic network analysis of tweets. Social Science 
                 Computer Review, 40(6), 1436–1455. <a href='/video/The expression of cultural identities in Anti-ELABM (with opening).mp4'>[video]</a>
                 </li>

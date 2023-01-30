@@ -64,7 +64,7 @@ export default class News extends React.Component {
                 <ToggleButton className="youth-engagement-news youth-engagement-button" value={5} active>Youth Engagemnet</ToggleButton>
             </ToggleButtonGroup>
 
-            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "presentations"]} date="November 23, 2022" title="Invited Talk for A*Star">
+            <NewsComponent className="civic-tech-news" class="civic-tech-news-content" tag="Civic Tech" subtags={["gov-tech", "events", "presentations"]} date="November 23, 2022" title="Invited Talk on “Online Deliberation Singapore”">
                 <p>
                 Dr. Weiyu Zhang joined a panel “From mini publics to maxi publics” at the D³ Congress (Online Congress on Digital Democracy) to present the Online Deliberation Singapore project. 
                 Along with experts from Czech Republic, Finland, and Germany, the panel discusses how to scale high-quality deliberation with digital means. Dr Zhang made the following 

@@ -54,8 +54,8 @@ export default class People extends React.Component {
                 <Col><Person name="Catherine Candano" img="catherine.png" position="Master Graduate, 2012; currently Head, Strategic Data Partnerships Development, Google Asia Pacific"></Person></Col>
                 <Col><Person name="Lingzi Zhang" img="lingzi.png" link="https://www.linkedin.com/in/lizziezhang/" position="Master Graduate, 2012; currently Product Director at Ola Chat"></Person></Col>
                 <Col><Person name="Manjiang He" img="manjiang.png" link="https://www.linkedin.com/in/manjianghe/" position="Research Assistant, Master student, LKYSPP, NUS"></Person></Col>
-                <Col><Person name="Zhuo Chen" img="zhuochen.png" position="PhD Candidate "></Person></Col>
-                <Col><Person name="Yipeng Xi" img="yipeng.png" position="PhD Candidate "></Person></Col>
+                <Col><Person name="Zhuo Chen" img="zhuochen.png" position="PhD Graduate, 2022"></Person></Col>
+                <Col><Person name="Yipeng Xi" img="yipeng.png" position="PhD Graduate, 2022"></Person></Col>
                 <Col><Person name="Chuyao Wang" img="chuyao.png" position="Research Intern, Master Student, Hong Kong University of Science and Technology"></Person></Col>
                 <Col><Person name="Nuriyah Fatin" img="nuriyah.png" position="Research Assistant, undergrad student, CNM, NUS"></Person></Col>
 

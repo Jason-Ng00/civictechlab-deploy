@@ -54,6 +54,13 @@ export default class CivicTech extends React.Component {
             <h2 className="subtitle">Publications</h2>
             <ol>
                 <li>
+                Zhang, W., Wang, R., & Liu, H. (2023). Moral Expression, Sources, and Frames: Examining COVID-19 Vaccination Posts by Facebook Public Pages. Computers in Human Behavior.       
+                </li>
+                <li>
+                Zhang, W., Mukerjee, S., & Qin, H. (2022). Topics and sentiments influence likes: A study of Facebook public pages’ posts about COVID-19 vaccination. 
+                <em>Cyberpsychology, Behavior, & Social Networking</em>. <a href='https://doi.org/10.1089/cyber.2022.0063'>https://doi.org/10.1089/cyber.2022.0063</a> 
+                </li>
+                <li>
                     Zhang, W., Chua, G., See, C. (July 2021). <em>The Role of Social Media in China’s Lifeworld Environmentalism</em>,
                     paper presented at the 2021 Annual Conference of International Association
                     of Media and Communication Research, virtual due to Covid-19.
